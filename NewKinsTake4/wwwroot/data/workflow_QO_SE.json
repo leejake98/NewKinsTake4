@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "종목정보 존재?",
+            "WorkStageName": "Is the **bond** you wish to invest in **already registered** in the system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "신규 발행자?",
+            "WorkStageName": "Is the **issuer** of the bond you intend to invest in **already registered** in the system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -39,7 +39,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
+            "LoadingPageType": "예",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "MUREX 사용지점?",
+            "WorkStageName": "Is this a branch currently using the **MUREX** system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -160,7 +160,7 @@
             "WorkStageName": "",
             "DisplayLayoutRow": "1",
             "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Yes",
+            "LoadingPageType": "노",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -256,12 +256,12 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 채권 종목정보 입력 [EN] Input the bond instruments",
+            "WorkStageName": "Input the information for **bond instruments**.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "MUREX 연계시스템 입력",
+            "KinsPageNumber": "549010_2_Related_Work",
+            "KinsPageName": "MUREX interfacing system",
             "WorkStageNameKo": ""
         },
         {
