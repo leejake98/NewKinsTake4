@@ -1,0 +1,246 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]고객으로 부터 환전 거래 요청 접수 [EN]Receive application related to foreign currency from customer ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "수작업",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]통화 별 현재 시재 조회 [EN View current balance by currency ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "거래 종류 == Sell?",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "예",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]매도 거래 정보 입력 및 고객정보 입력 [EN]Enter customer and transaction information ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "311000",
+            "KinsPageName": "Foreign Currency Transaction",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "노",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Up",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "└",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]매입 거래 정보 입력 및 고객정보 입력 [EN]Enter customer and transaction information ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "311000",
+            "KinsPageName": "Foreign Currency Transaction",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "┘",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]취소대상 거래내역 조회 [EN]View transaction to cancel ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "311000",
+            "KinsPageName": "Foreign Currency Transaction",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]취소대상 거래 선택 후 Enter 클릭 [EN]Select transaction to cancel then Click Enter ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "311000",
+            "KinsPageName": "Foreign Currency Transaction",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_FC_0001",
+            "WorkflowName": "Exchange foreign currency",
+            "WorkStageName": "[KR]거래내역 확인을 위한 조회 조건 설정 후 Enter클릭  [EN]Click Enter after selecting viewing options to check status of exchange",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "315000",
+            "KinsPageName": "Inquiry",
+            "WorkStageNameKo": ""
+        }
+    ]
+}
