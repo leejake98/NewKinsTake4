@@ -3,6 +3,589 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **capture and manage bond investment transactions** by registering detailed bond issuance and trading information. <br><br>① When a **Bond ID** is entered, the system checks the issuer’s limit. If the limit is exceeded, an alert is triggered, and the transaction is blocked. <br>  ② Key fields include **ISIN, issuer, product type, deal date, counterparty, settlement details, coupon rates, spread, and amortization methods**. <br>  ③ It also supports **credit adjustments, overnight risk-free rates (RFR), and interest calculation periods**. <br>  ④ Upon completion, a **Deal Slip** is generated.",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "241100",
+            "KinsPageName": "Deal Buying Entry",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "10",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Picture",
+            "KinsPageNumber": "241100",
+            "KinsPageName": "Deal Slip",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **validate the integrity of registered purchase transactions** before final processing. <br><br>- **No accounting entries** are generated during this validation process. Instead, it ensures that all transaction components meet the required consistency checks. <br>- **Modifications or deletions** after validation require a **Cancel transaction**, which must be approved before reverting to an **Edit state**. <br>- For transactions involving **Confirmation (MT320)**, an internal interface processes the data, and the final Swift Message for **MT320** is generated.",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242010",
+            "KinsPageName": "Deal Validation",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **retrieve and process settlement accounting transactions**. <br><br>① It **retrieves** accounting transaction details and processes accounting entries. <br>② It **sets** the **debit/credit balance** amounts managed in the ledger. <br>  ③ Accounting transactions can be **canceled** using the **Cancel [51701]** function. <br><br>**Search Criteria:** <br>- **Reference No.**: Ledger reference number for the bond transaction.  <br>- **Bond ID**: Bond security identification number.  <br>- **Counterparty**: Customer number of the bond transaction counterparty.  <br>- **Dealer**: Dealer code.  <br>- **Product Type**: Security classification code used as an accounting processing criterion (e.g., **BND, CD, CP, ELB, PN, SSB, STK**).",
+            "DisplayLayoutRow": "16",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242020",
+            "KinsPageName": "Settlement accounting",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **manage bond instruments** by providing detailed information on **issuance, classification, pricing, and credit evaluation**. <br><br>It includes key fields such as **Bond ID, product type, issuer details, issue and maturity dates, denomination price, and redemption terms**. <br>  Additionally, it supports various classification codes (**ISIN, CUSIP, Bloomberg Ticker**), **credit ratings from multiple agencies**, and **investment rankings**. <br>  It also tracks **collateral presence, amortization schedules, interest payment structures, taxation, and risk factors** (e.g., **reset frequency, step rates, and spread rates**). ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "244010",
+            "KinsPageName": "Bond Instrument",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **manage bond guarantees and collateral** in bond investment transactions. It captures essential details, including **Bond ID, Bond Name, and guarantee/collateral classifications**. <br><br>Users can input **Guarantor ID, Guarantor Name, and Collateral Class**, categorizing collateral into **real estate, securities, deposits, and other assets**. <br>  Additional fields provide information on **collateral details, ratings, currency, and amounts**, ensuring accurate risk assessment. The **Jurisdiction Nation** field helps maintain compliance with legal frameworks.",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "244020",
+            "KinsPageName": "Bond Guarantor/Collateral",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **manage bond-linked options**, specifically **call (C) and put (P) options** associated with bond investments. It enables users to input and track key details, including **Bond ID, Bond Name, Exercise Date, and Option Type**.<br><br>Additionally, users can define the **Notice Period** and **Notice End Date**, ensuring clarity on when the option can be exercised. The screen also includes the **Option Discount/Premium Rate**, determining any applicable discount or premium upon exercise.<br>A **Remark** field allows users to record transaction-related notes, ensuring comprehensive tracking and informed decision-making.",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "244040",
+            "KinsPageName": "Bond Linked Option",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **input bond principal and coupon information** and **pre-calculate the effective interest rate** for verification.<br><br>① **Enter** the bond principal amount and coupon details.  <br>② The system **automatically computes** the effective interest rate.  <br>③ Users can **review and confirm** the calculated rate before proceeding.  ",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "245050",
+            "KinsPageName": "Effective Rate Calculation",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Picture",
+            "KinsPageNumber": "245120",
+            "KinsPageName": "**Securities Interest (Coupon) Outstanding Report**",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "The function of this screen is to register detailed **information for selling** securities. <br> <br>① **Enter the deal type** as \"Selling\" and input relevant transaction details. If partially selling, regenerate and verify the schedule. The **settlement amount** is calculated as the sum of the selling price and received interest. <br>  ② **Auto-fetch bond details**: When entering the **Reference No**, related bond details (e.g., Bond ID, Issuer, Maturity Date) are automatically populated. <br>  ③ **Automated interest calculation**: Enter **Face Amount, Settlement Date, and Price**, then click the **calculator** to compute **Book Amount, P/L on Sale, and interest values**. <br>  ④ **Prepaid interest calculation**: Based on **Coupon Rate and Interest Period**, the system auto-calculates **current interest amounts**, which cannot be manually modified.",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "241200",
+            "KinsPageName": "Deal Selling Entry",
+            "WorkStageNameKo": "[Desc.] Deal type: Selling 선택 후 매도 거래 정보를 입력한다.부분매도시 스케줄을 재생성 및 확인해야 한다. 결제금액은 처분 금액과 수취이자를 합하여 계산한다. "
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "The function of this screen is to **validate the integrity of registered bond sales transactions** before final processing. <br><br>- **No accounting entries** are generated during this validation process. Instead, it ensures that all transaction components meet the required consistency checks. <br>- **Modifications or deletions** after validation require a **Cancel transaction**, which must be approved before reverting to an **Edit state**. <br>- For transactions involving **Confirmation (MT320)**, an internal interface processes the data, and the final Swift Message for **MT320** is generated.",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242010",
+            "KinsPageName": "Deal Validation",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "The function of this screen is to **retrieve and process settlement accounting transactions**. <br><br>① It **retrieves** accounting transaction details and processes accounting entries. <br>② It **sets** the **debit/credit balance** amounts managed in the ledger. <br>  ③ Accounting transactions can be **canceled** using the **Cancel [51701]** function. <br><br>**Search Criteria:** <br>- **Reference No.**: Ledger reference number for the bond transaction.  <br>- **Bond ID**: Bond security identification number.  <br>- **Counterparty**: Customer number of the bond transaction counterparty.  <br>- **Dealer**: Dealer code.  <br>- **Product Type**: Security classification code used as an accounting processing criterion (e.g., **BND, CD, CP, ELB, PN, SSB, STK**).",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242020",
+            "KinsPageName": "Settlement accounting",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "Is this a branch currently using the **MUREX** system?",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "The function of this screen is to **modify and regenerate the schedule** for a bond by adjusting the **Effective Interest Rate (EIR)** or **remaining principal balance**.  <br><br>Users can search for schedules using the following criteria:  <br>- **Reference No.**, **Bond ID**, **Issuer Name**, **Bond Name**, **Date Type**  <br><br>To modify a schedule:  <br>① Verify the bond’s schedule details and **EIR**, then click **Pre-Inquiry** to preview the updated schedule.  <br>② Bonds that have been **partially sold or repaid** cannot regenerate schedules here.  <br>③ **Coupon Rate** defaults to the purchase transaction rate but is editable.  <br>④ Modify **Day Basis** in **[24410] Bond Information** if needed.  <br>⑤ If amortization is uneven, recalculate or adjust **EIR**, then retry.",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "242040",
+            "KinsPageName": "Schedule Regeneration(accrual+amort)",
+            "WorkStageNameKo": "[Desc.] 유효이자율을 수정하고 그 결과 생성 및 수정되는 스케줄을 조회한다. 기타 스케줄 생성에 영향을 주는 항목들 (ex. Day Basis) 은 [244010] 종목정보를 수정해야 한다. "
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "The function of this screen is to **inquire about the status of securities interest (coupon) payments** based on specified conditions. <br><br>Users can search using the following criteria:  <br>- **Reference No.**  <br>- **Instrument No.**  <br>- **Settlement Date**  <br><br>Upon inquiry, the system generates a **Securities Interest (Coupon) Outstanding Report**, displaying relevant payment details.",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "245120",
+            "KinsPageName": "Deal Interest",
+            "WorkStageNameKo": "[Desc.] Settlement Date를 입력 후 이자 스케줄을 확인한다."
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "[KR] PO 작성 [EN] PO Making",
+            "DisplayLayoutRow": "18",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "541010",
+            "KinsPageName": "PO Making",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "[KR] Rate fixing [EN] Rate fixing",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "542020",
+            "KinsPageName": "Rate Fixing Entry",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "[KR] Rate fixing [EN] Rate fixing",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "542030",
+            "KinsPageName": "Rate Last Fixing For RFR",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "[KR] 스케줄 생성 및 수정 등 관리 [EN] Schedule Management(Generation and Modify)",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "542040",
+            "KinsPageName": "Schedule Management",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **interface bond purchase deal data from Murex**. <br>  <br>① Set the **Interface Kind** to **Deal Transaction**. <br>  ② The system retrieves and processes bond selling details from Murex. <br>  ③ Upon interfacing, the user is directed to **screen 241200**, where they can **review, modify, or input additional required information**.",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549010",
+            "KinsPageName": "Interface Screen Entry",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "The function of this screen is to **interface bond purchase deal data from Murex**. <br>  <br>① Set the **Interface Kind** to **Deal Transaction**. <br>  ② The system retrieves and processes bond selling details from Murex. <br>  ③ Upon interfacing, the user is directed to **screen 241200**, where they can **review, modify, or input additional required information**.",
+            "DisplayLayoutRow": "10",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549010",
+            "KinsPageName": "Interface Screen Entry",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "Input the information for **bond instruments**.",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549010_2_Related_Work",
+            "KinsPageName": "MUREX interfacing system",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "Input the information for **bond instruments**.",
+            "DisplayLayoutRow": "10",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549010_2_Related_Work",
+            "KinsPageName": "MUREX interfacing system",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "Processing Rate Fixing at the MUREX system",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549010_2_Related_Work",
+            "KinsPageName": "Rate Fixing Entry at MUREX",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "[KR] Murex에서 Rate Fixing 정보를 인터페이스 [EN] Interface Rate Fixing from Murex",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "549020",
+            "KinsPageName": "Interface Rate Fixing",
+            "WorkStageNameKo": "[Desc.] 인터페이스 시 RFR인 경우  [542030], RFR이 아닌 경우[00537_M] 화면으로 진입함."
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "고객 등록 프로세스",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_CI_0001",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_NV_0020",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_NV_0020",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "Is it a **\"partial sale\" or a \"full sale\"**?<br>Y: Partial  <br>N: Full",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "거래에 대한 OFAC Check 수행",
+            "DisplayLayoutRow": "10",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SC_0001",
+            "KinsPageName": "MUREX 연계시스템 입력",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "SWIFT발신",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SM_0002",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "당행 자금지급 Outgoing SWIFT Message",
+            "DisplayLayoutRow": "18",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SM_0002",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "SWIFT발신",
+            "DisplayLayoutRow": "8",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SM_0002",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "가수금/가지급금 거래",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SR_0010",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
+            "WorkStageName": "가수금/가지급금 거래(결제일)",
+            "DisplayLayoutRow": "14",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_SR_0010",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Yes",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Up",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Yes",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "Is **rate fixing** necessary?",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0001",
+            "WorkflowName": "Bond Purchase",
             "WorkStageName": "Is the **bond** you wish to invest in **already registered** in the system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
@@ -113,17 +696,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 종목정보 입력 [EN] Input the bond instruments",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "10",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "244010",
-            "KinsPageName": "Bond Instrument",
-            "WorkStageNameKo": "[Desc.] 채권의 종목 정보를 등록한다"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "11",
@@ -223,17 +795,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "고객 등록 프로세스",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_CI_0001",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "3",
@@ -251,17 +812,6 @@
             "LoadingPageType": "┘",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "Input the information for **bond instruments**.",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "549010_2_Related_Work",
-            "KinsPageName": "MUREX interfacing system",
             "WorkStageNameKo": ""
         },
         {
@@ -296,17 +846,6 @@
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] Murex에서 종목정보를 인터페이스 [EN] Interface Bond Instruments from Murex",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "10",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "549010",
-            "KinsPageName": "Interface Screen Entry",
-            "WorkStageNameKo": "[Desc.] Interface Kind를 Instrumnet로 설정 후 종목정보 수신  인터페이스 시 244010 화면으로 진입하며 수정 및 추가 필요 정보를 입력  상세화면은 수행사 PC 환경에서 진입 불가"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -465,7 +1004,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "옵션부 채권?",
+            "WorkStageName": "Is it a bond with **embedded options**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -509,7 +1048,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "보증부/담보부?",
+            "WorkStageName": "Is it a **guaranteed or secured** bond?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -641,17 +1180,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 채권의 옵션정보 입력 [EN] Register the bond linked option",
-            "DisplayLayoutRow": "6",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "244040",
-            "KinsPageName": "Bond Linked Option",
-            "WorkStageNameKo": "[Desc.] 채권 종목정보에 등록된 Bond ID를 선택하여 등록처리한다."
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "3",
@@ -670,17 +1198,6 @@
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 보증인 및 담보 정보 등록 [EN] Register the guarantor and collateral",
-            "DisplayLayoutRow": "6",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "244020",
-            "KinsPageName": "Bond Guarantor/Collateral",
-            "WorkStageNameKo": "[Desc.] 채권의 보증인, 담보정보를 설정한다."
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -839,7 +1356,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "MUREX 사용지점?",
+            "WorkStageName": "Is this a branch currently using the **MUREX** system?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -861,17 +1378,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR]  유효이자율 계산 [EN]  Calculate Effective Rate",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "245050",
-            "KinsPageName": "Effective Rate Calculation",
-            "WorkStageNameKo": "[Desc.] 필요시 원금 및 쿠폰 정보를 입력하고 유효이자율을 사전에 계산하여 확인한다"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "3",
@@ -883,13 +1389,13 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 매입정보 입력 [EN] Input the deal buying",
-            "DisplayLayoutRow": "8",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "9",
             "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "241100",
-            "KinsPageName": "Deal Buying Entry",
-            "WorkStageNameKo": "[Desc.] 매입하려는 유가증권 내역의 상세정보를 등록한다.  Bond ID 입력 시 발행자 한도가 조회되며 한도초과인 경우 등록시 알림 생성 및 거래 Block"
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -905,17 +1411,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] Deal Validation 수행 [EN] Deal validation",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "242010",
-            "KinsPageName": "Deal Validation",
-            "WorkStageNameKo": "[Desc.] 등록한 매입 거래에 대해 정합성을 최종 확인함"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "7",
@@ -927,7 +1422,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "뉴욕지점?",
+            "WorkStageName": "New York Branch?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -1004,17 +1499,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 채권 매입정보 입력 [EN] Input Bond Buying Deals",
-            "DisplayLayoutRow": "10",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "MUREX 연계시스템 입력",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "1",
@@ -1022,28 +1506,6 @@
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] Murex에서 매입 정보를 인터페이스 [EN] Interface Bond Buying Deal from Murex",
-            "DisplayLayoutRow": "10",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "549010",
-            "KinsPageName": "Interface Screen Entry",
-            "WorkStageNameKo": "[Desc.] Interface Kind를 Deal Transaction로 설정 후 채권 매입정보 Interface  인터페이스 시 241100 화면으로 진입하며 수정 및 추가 필요 정보를 입력"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "거래에 대한 OFAC Check 수행",
-            "DisplayLayoutRow": "10",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SC_0001",
-            "KinsPageName": "MUREX 연계시스템 입력",
-            "WorkStageNameKo": "뉴욕지점 실시간 거래에 대한 OFAC Check 업무 처리 절차"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1180,7 +1642,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "중국지점(상해지점제외)의 위안화 채권 매입?",
+            "WorkStageName": "Is this a **RMB bond** purchase transaction by one of the China branches (excluding the Shanghai branch)?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1224,7 +1686,7 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "Custody 사용?",
+            "WorkStageName": "Are you using **Custody**?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1312,17 +1774,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "가수금/가지급금 거래",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SR_0010",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "1",
@@ -1334,28 +1785,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "가수금/가지급금 거래(결제일)",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SR_0010",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] 중국의 규제로 인해 타 지점과 달리 가수금/가지급금 프로세스가 존재함."
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "SWIFT발신",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SM_0002",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] MT202 생성 (Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "5",
@@ -1363,17 +1792,6 @@
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
-            "DisplayLayoutRow": "14",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_NV_0020",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] 자금 이체(Nostro(Chase 등) 계좌 -> Euroclear(Custody) 內 KDB 계좌)에 대한 전표처리"
         },
         {
             "ScenarioCode": "NW_SE_0001",
@@ -1510,17 +1928,6 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] 결제 회계처리 [EN] Settlement accounting",
-            "DisplayLayoutRow": "16",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "242020",
-            "KinsPageName": "Settlement accounting",
-            "WorkStageNameKo": "[Desc.] 회계처리 및 PO발송(필요시)을 처리함"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "3",
@@ -1565,142 +1972,10 @@
         {
             "ScenarioCode": "NW_SE_0001",
             "WorkflowName": "Bond Purchase",
-            "WorkStageName": "[KR] PO 작성 [EN] PO Making",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "541010",
-            "KinsPageName": "PO Making",
-            "WorkStageNameKo": "[Desc.] MT202를 생성한다. Custody인 경우 (Euroclear(Custody) 계좌 -> Counterparty(Euroclear) 계좌)"
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
             "WorkStageName": "",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "1",
             "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0001",
-            "WorkflowName": "Bond Purchase",
-            "WorkStageName": "당행 자금지급 Outgoing SWIFT Message",
-            "DisplayLayoutRow": "18",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SM_0002",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] 이자 스케줄 조회 [EN] Inquire Deal Interest",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "245120",
-            "KinsPageName": "Deal Interest",
-            "WorkStageNameKo": "[Desc.] Settlement Date를 입력 후 이자 스케줄을 확인한다."
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "1",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "Rate Fixing 필요?",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Fork",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "No",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "7",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "━",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "9",
-            "LoadingPageType": "━",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1712,6 +1987,17 @@
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0002",
+            "WorkflowName": "Bond Interest Recipt",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "│",
             "KinsPageNumber": "",
             "KinsPageName": "",
             "WorkStageNameKo": ""
@@ -1741,7 +2027,7 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "뮤렉스 사용 지점?",
+            "WorkStageName": "Is this a branch currently using the **MUREX** system?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1802,17 +2088,6 @@
             "LoadingPageType": "No",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] Rate fixing [EN] Rate fixing",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "542020",
-            "KinsPageName": "Rate Fixing Entry",
             "WorkStageNameKo": ""
         },
         {
@@ -1884,45 +2159,12 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] Rate Fixing 수행 [EN] Processing Rate Fixing",
-            "DisplayLayoutRow": "4",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "MUREX 연계시스템 입력",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
             "WorkStageName": "",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "3",
             "LoadingPageType": "Right",
             "KinsPageNumber": "",
             "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] Murex에서 Rate Fixing 정보를 인터페이스 [EN] Interface Rate Fixing from Murex",
-            "DisplayLayoutRow": "4",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "549020",
-            "KinsPageName": "Interface Rate Fixing",
-            "WorkStageNameKo": "[Desc.] 인터페이스 시 RFR인 경우  [542030], RFR이 아닌 경우[00537_M] 화면으로 진입함."
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] Rate fixing [EN] Rate fixing",
-            "DisplayLayoutRow": "4",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "542030",
-            "KinsPageName": "Rate Last Fixing For RFR",
             "WorkStageNameKo": ""
         },
         {
@@ -2093,7 +2335,7 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "스케줄 수정 필요?",
+            "WorkStageName": "Is it necessary to **modify** the principal and interest **receipt schedule**?",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -2115,17 +2357,6 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] 이자 회계처리 [EN] Coupon Accounting",
-            "DisplayLayoutRow": "6",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "242020",
-            "KinsPageName": "Settlement accounting",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
             "WorkStageName": "",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "3",
@@ -2137,7 +2368,7 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "이자 입금 계좌(Custody)?",
+            "WorkStageName": "Is the interest recipt account a **Custody** account?<br>Y: Custody  <br>N: Not Custody",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -2236,17 +2467,6 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] 스케줄 생성 및 수정 등 관리 [EN] Schedule Management(Generation and Modify)",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "542040",
-            "KinsPageName": "Schedule Management",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
             "WorkStageName": "",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "1",
@@ -2258,233 +2478,57 @@
         {
             "ScenarioCode": "NW_SE_0002",
             "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "[KR] 상각스케줄 재생성 [EN] Amort Schedule Regeneration",
+            "WorkStageName": "",
             "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "2",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "The function of this screen is to **modify and regenerate the schedule** for a bond by adjusting the **Effective Interest Rate (EIR)** or **remaining principal balance**.  <br><br>Users can search for schedules using the following criteria:  <br>- **Reference No.**, **Bond ID**, **Issuer Name**, **Bond Name**, **Date Type**  <br><br>To modify a schedule:  <br>① Verify the bond’s schedule details and **EIR**, then click **Pre-Inquiry** to preview the updated schedule.  <br>② Bonds that have been **partially sold or repaid** cannot regenerate schedules here.  <br>③ **Coupon Rate** defaults to the purchase transaction rate but is editable.  <br>④ Modify **Day Basis** in **[24410] Bond Information** if needed.  <br>⑤ If amortization is uneven, recalculate or adjust **EIR**, then retry.",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
             "KinsPageNumber": "242040",
-            "KinsPageName": "Schedule Regeneratoin(accrual+amort)",
-            "WorkStageNameKo": "[Desc.] 유효이자율을 수정하고 그 결과 생성 및 수정되는 스케줄을 조회한다. 기타 스케줄 생성에 영향을 주는 항목들 (ex. Day Basis) 은 [244010] 종목정보를 수정해야 한다. "
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "SWIFT발신",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_SM_0002",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0002",
-            "WorkflowName": "Bond Interest Recipt",
-            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
-            "DisplayLayoutRow": "8",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_NV_0020",
-            "KinsPageName": "",
+            "KinsPageName": "Schedule Regeneration(accrual+amort)",
             "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0003",
             "WorkflowName": "Bond Sale",
-            "WorkStageName": "MUREX 사용지점?",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Fork",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "1",
-            "LoadingPageType": "No",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] 매도거래 기입 [EN] Deal selling Entry",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "241200",
-            "KinsPageName": "Deal Selling Entry",
-            "WorkStageNameKo": "[Desc.] Deal type: Selling 선택 후 매도 거래 정보를 입력한다.부분매도시 스케줄을 재생성 및 확인해야 한다. 결제금액은 처분 금액과 수취이자를 합하여 계산한다. "
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "3",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] Sell Deal 검증 [EN] Sell Deal validation",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "242010",
-            "KinsPageName": "Deal Validation",
-            "WorkStageNameKo": "[Desc.] 매도거래의 각 항목에 대한 정합성을 최종 확인함."
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "5",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "부분매도?",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Fork",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "7",
-            "LoadingPageType": "No",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "0",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "┐",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "1",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Yes",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "1",
-            "DisplayLayoutColumn": "2",
-            "LoadingPageType": "Up",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "1",
-            "DisplayLayoutColumn": "6",
-            "LoadingPageType": "Yes",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "1",
-            "DisplayLayoutColumn": "8",
-            "LoadingPageType": "│",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] 채권 매도정보 입력 [EN] Input Bond Selling  Deals",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "0",
-            "LoadingPageType": "Image",
-            "KinsPageNumber": "",
-            "KinsPageName": "MUREX 연계시스템 입력",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "",
-            "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "1",
-            "LoadingPageType": "Right",
-            "KinsPageNumber": "",
-            "KinsPageName": "",
-            "WorkStageNameKo": ""
-        },
-        {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] Murex에서 매도 정보를 인터페이스 [EN] Interface Bond Selling Deal from Murex",
+            "WorkStageName": "The function of this screen is to **interface bond selling deal data from Murex**. <br>  <br>① Set the **Interface Kind** to **Deal Transaction**. <br>  ② The system retrieves and processes bond selling details from Murex. <br>  ③ Upon interfacing, the user is directed to **screen 241200**, where they can **review, modify, or input additional required information**.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
             "KinsPageNumber": "549010",
             "KinsPageName": "Interface Screen Entry",
-            "WorkStageNameKo": "[Desc.] Interface Kind를 Deal Transaction로 설정 후 채권 매도정보 Interface. 인터페이스 시 241200 화면으로 진입하며 수정 및 추가 필요 정보를 입력."
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0003",
             "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] 상각스케줄 재생성 [EN] Amort Schedule Regeneration",
+            "WorkStageName": "Input Bond Selling  Deals at MUREX",
             "DisplayLayoutRow": "2",
-            "DisplayLayoutColumn": "6",
+            "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
-            "KinsPageNumber": "242040",
-            "KinsPageName": "Schedule Regeneration(accrual + amort)",
-            "WorkStageNameKo": "[Desc.] 유효이자율을 수정하고 그 결과 생성 및 수정되는 스케줄을 조회한다. 기타 스케줄 생성에 영향을 주는 항목들 (ex. Day Basis) 은 [244010] 종목정보를 수정해야 한다. "
+            "KinsPageNumber": "549010_2_Related_Work",
+            "KinsPageName": "MUREX",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0003",
@@ -2599,7 +2643,7 @@
         {
             "ScenarioCode": "NW_SE_0003",
             "WorkflowName": "Bond Sale",
-            "WorkStageName": "[KR] 결제 회계처리 [EN] Settlement accounting",
+            "WorkStageName": "The function of this screen is to **retrieve and process settlement accounting transactions**. <br><br>① It **retrieves** accounting transaction details and processes accounting entries. <br>② It **sets** the **debit/credit balance** amounts managed in the ledger. <br>  ③ Accounting transactions can be **canceled** using the **Cancel [51701]** function. <br><br>**Search Criteria:** <br>- **Reference No.**: Ledger reference number for the bond transaction.  <br>- **Bond ID**: Bond security identification number.  <br>- **Counterparty**: Customer number of the bond transaction counterparty.  <br>- **Dealer**: Dealer code.  <br>- **Product Type**: Security classification code used as an accounting processing criterion (e.g., **BND, CD, CP, ELB, PN, SSB, STK**).",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -2621,7 +2665,7 @@
         {
             "ScenarioCode": "NW_SE_0003",
             "WorkflowName": "Bond Sale",
-            "WorkStageName": "매도대금 입금 계좌(Custody)?",
+            "WorkStageName": "Is the \"sales proceed recipt account\" a **Custody** account?<br>Y: Custody  <br>N: Not Custody",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -2698,6 +2742,17 @@
         {
             "ScenarioCode": "NW_SE_0003",
             "WorkflowName": "Bond Sale",
+            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
+            "DisplayLayoutRow": "6",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Workflow",
+            "KinsPageNumber": "NW_NV_0020",
+            "KinsPageName": "",
+            "WorkStageNameKo": "[Desc.] 자금 이체(Euroclear 內 KDB 계좌->Nostro 계좌 )에 대한 전표처리"
+        },
+        {
+            "ScenarioCode": "NW_SE_0003",
+            "WorkflowName": "Bond Sale",
             "WorkStageName": "SWIFT발신",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
@@ -2718,26 +2773,37 @@
             "WorkStageNameKo": ""
         },
         {
-            "ScenarioCode": "NW_SE_0003",
-            "WorkflowName": "Bond Sale",
-            "WorkStageName": "예수금/예치금 계좌 입지급 거래",
-            "DisplayLayoutRow": "6",
-            "DisplayLayoutColumn": "4",
-            "LoadingPageType": "Workflow",
-            "KinsPageNumber": "NW_NV_0020",
-            "KinsPageName": "",
-            "WorkStageNameKo": "[Desc.] 자금 이체(Euroclear 內 KDB 계좌->Nostro 계좌 )에 대한 전표처리"
-        },
-        {
             "ScenarioCode": "NW_SE_0004",
             "WorkflowName": "Bond Maturity",
-            "WorkStageName": "[KR] 만기 도래 거래 조회 [EN] Inquire maturing bonds",
+            "WorkStageName": "The function of this screen is to **retrieve and display maturing securities**. <br><br>Users can search for **bonds and other securities approaching maturity** based on the following criteria:  <br>- **Reference No.**  <br>- **Instrument No.**  <br>- **Counterparty**  <br>- **Deal Date**  <br>- **Order By**  <br><br>① After entering the search criteria, the system retrieves relevant maturing securities. <br>  ② Once the results are displayed, users can generate a **Securities Maturity Report** for further analysis.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
             "KinsPageNumber": "245110",
             "KinsPageName": "Deal Maturity",
-            "WorkStageNameKo": "[Desc.] 만기도래 채권들을 조회한다."
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0004",
+            "WorkflowName": "Bond Maturity",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0004",
+            "WorkflowName": "Bond Maturity",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Picture",
+            "KinsPageNumber": "245110",
+            "KinsPageName": "**Securities Maturity Report**",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0004",
@@ -2753,13 +2819,35 @@
         {
             "ScenarioCode": "NW_SE_0004",
             "WorkflowName": "Bond Maturity",
-            "WorkStageName": "[KR] 매도거래 기입 [EN] Deal selling Entry",
+            "WorkStageName": "The function of this screen is to register detailed **information for selling** securities. <br> <br>① **Enter the deal type** as \"Selling\" and input relevant transaction details. If partially selling, regenerate and verify the schedule. The **settlement amount** is calculated as the sum of the selling price and received interest. <br>  ② **Auto-fetch bond details**: When entering the **Reference No**, related bond details (e.g., Bond ID, Issuer, Maturity Date) are automatically populated. <br>  ③ **Automated interest calculation**: Enter **Face Amount, Settlement Date, and Price**, then click the **calculator** to compute **Book Amount, P/L on Sale, and interest values**. <br>  ④ **Prepaid interest calculation**: Based on **Coupon Rate and Interest Period**, the system auto-calculates **current interest amounts**, which cannot be manually modified.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
             "KinsPageNumber": "241200",
             "KinsPageName": "Deal Selling Entry",
-            "WorkStageNameKo": "[Desc.] Deal type: Maturity 선택 후 만기처리를 한다. 만기처리는 Validation을 하지 않음."
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0004",
+            "WorkflowName": "Bond Maturity",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SE_0004",
+            "WorkflowName": "Bond Maturity",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "Picture",
+            "KinsPageNumber": "241200",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0004",
@@ -2775,13 +2863,13 @@
         {
             "ScenarioCode": "NW_SE_0004",
             "WorkflowName": "Bond Maturity",
-            "WorkStageName": "[KR] 결제 회계처리 [EN] Settlement accounting",
+            "WorkStageName": "The function of this screen is to **retrieve and process settlement accounting transactions**. <br><br>① It **retrieves** accounting transaction details and processes accounting entries. <br>② It **sets** the **debit/credit balance** amounts managed in the ledger. <br>  ③ Accounting transactions can be **canceled** using the **Cancel [51701]** function. <br><br>**Search Criteria:** <br>- **Reference No.**: Ledger reference number for the bond transaction.  <br>- **Bond ID**: Bond security identification number.  <br>- **Counterparty**: Customer number of the bond transaction counterparty.  <br>- **Dealer**: Dealer code.  <br>- **Product Type**: Security classification code used as an accounting processing criterion (e.g., **BND, CD, CP, ELB, PN, SSB, STK**).",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
             "KinsPageNumber": "242020",
             "KinsPageName": "Settlement accounting",
-            "WorkStageNameKo": "[Desc.] 회계처리를 수행함"
+            "WorkStageNameKo": ""
         },
         {
             "ScenarioCode": "NW_SE_0004",
@@ -2797,7 +2885,7 @@
         {
             "ScenarioCode": "NW_SE_0004",
             "WorkflowName": "Bond Maturity",
-            "WorkStageName": "채권 대금 입금 계좌(Custody)?",
+            "WorkStageName": "Is the \"sales proceed recipt account\" a **Custody** account?<br>Y: Custody  <br>N: Not Custody",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
