@@ -2995,7 +2995,7 @@
         {
             "ScenarioCode": "NW_SE_0005",
             "WorkflowName": "Bond Short Sale",
-            "WorkStageName": "종목정보 존재?",
+            "WorkStageName": "Is the **bond** you wish to invest in **already registered** in the system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -3017,7 +3017,7 @@
         {
             "ScenarioCode": "NW_SE_0005",
             "WorkflowName": "Bond Short Sale",
-            "WorkStageName": "신규 발행자?",
+            "WorkStageName": "Is the **issuer** of the bond you intend to invest in **already registered** in the system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -3083,7 +3083,7 @@
         {
             "ScenarioCode": "NW_SE_0005",
             "WorkflowName": "Bond Short Sale",
-            "WorkStageName": "MUREX 사용지점?",
+            "WorkStageName": "Is this a branch currently using the **MUREX** system?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -3105,7 +3105,7 @@
         {
             "ScenarioCode": "NW_SE_0005",
             "WorkflowName": "Bond Short Sale",
-            "WorkStageName": "[KR] 종목정보 입력 [EN] Input the bond instruments",
+            "WorkStageName": "The function of this screen is to **manage bond instruments** by providing detailed information on **issuance, classification, pricing, and credit evaluation**. <br><br>It includes key fields such as **Bond ID, product type, issuer details, issue and maturity dates, denomination price, and redemption terms**. <br>  Additionally, it supports various classification codes (**ISIN, CUSIP, Bloomberg Ticker**), **credit ratings from multiple agencies**, and **investment rankings**. <br>  It also tracks **collateral presence, amortization schedules, interest payment structures, taxation, and risk factors** (e.g., **reset frequency, step rates, and spread rates**). ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
