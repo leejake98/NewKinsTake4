@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "수수료 대분류 코드가 등록되어있는가? ",
+            "WorkStageName": "Is the fee major classification code registered?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) 수수료 중분류 Radio 버튼 선택 후, 대분류 코드 조회 (EN) After selecting the radio button of 2nd level classification fee code, inquiry 1st code  ",
+            "WorkStageName": "The function of this screen is to **retrieve the 1st-level classification fee code** based on the selected **2nd-level classification fee code**. <br>  \n① The user selects a **radio button** corresponding to a specific **2nd-level classification fee code**. <br>  \n② The system then **automatically retrieves and displays** the related **1st-level classification fee code**. <br>  \nThis functionality ensures accurate classification and streamlines fee-related inquiries.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) 수수료 중분류 코드 및 분류 설명을 작성 후 'Enter' 클릭 (EN) After Fill in 2nd level classification fee code, Click the 'Enter'  ",
+            "WorkStageName": "The function of this screen is to **input and confirm the second-level classification fee code**. <br>  \n① **Enter** the second-level classification fee code and its description. <br>  \n② **Click ‘Enter’** to save the information. <br>  \nThis screen ensures accurate categorization of fees within the system.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "코드 등록 후  수수료 등록을 하는가? ",
+            "WorkStageName": "Is the fee registered after the code registration?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -135,7 +135,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) 수수료 대분류 Radio 버튼 선택 후, Register Mode에서 대분류코드 및 분류 설명 작성 후 'Enter' 클릭 (EN) After selecting the 1st level classification radio button, Fill in 1st level classifiction code and description, Click 'Enter'  ",
+            "WorkStageName": "The function of this screen is to **register and manage the 1st level classification of fees**. <br>  \n① **Select** the **1st level classification** by clicking the corresponding **radio button**. <br>  \n② In **Register Mode**, **enter** the **classification code** and its **description**. <br>  \n③ **Press** **\"Enter\"** to confirm and save the input.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -234,7 +234,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Basic Information 모드]  Register 모드 실행 후 수수료 분류 구조도에서 수수료중분류(최하위 레벨 분류코드) 선택  (EN) [Basic Information mode] In Register mode, select the fee classifiction Tree and 2st fee classification ",
+            "WorkStageName": "The function of this screen is to **select a specific fee classification category** within the system. <br>  \n① In **Register mode**, users can navigate to the **Fee Classification Tree**. <br>  \n② From the hierarchical structure, users must select the **2nd-level fee classification**, which represents the **lowest-level category code** in the classification system. <br>  \nThis functionality allows for precise categorization and ensures that fees are assigned to the correct classification.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -256,7 +256,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Basic Information 모드] 수수료 상세 정보 입력 후 ‘Enter‘ 클릭 (EN) [Basic Information mode] Click 'Enter' after fill in Fee detail description  ",
+            "WorkStageName": "The function of this screen is to **enter and confirm fee details** in **Basic Information mode**. <br>  \n① Fill in the **fee detail description**. <br>  \n② Click **'Enter'** to save and proceed.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -278,7 +278,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Basic Information 모드] Inquiry 모드 실행 후  수수료 분류구조도에서 수수료 코드 Level 선택 후 조회 (EN) [Basic Information mode] In Fee classfication Tree, inquiry fee code ",
+            "WorkStageName": "The function of this screen is to **inquire about fee codes** within the **Fee Classification Tree** in **Basic Information mode**. <br>  \n① Activate **Inquiry mode**. <br>  \n② In the **Fee Classification Tree**, select the appropriate **fee code level**. <br>  \n③ Retrieve and display the relevant **fee code information**.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -366,7 +366,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "Condition Information 있는가?  ",
+            "WorkStageName": "Is Condition Information?",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -487,7 +487,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "산출방법구분이 00(사용자입력) 01(정액)인가? ",
+            "WorkStageName": "Is the Calculation Method Classification 00 (User Input) or 01 (Fixed Amount)?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -509,7 +509,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "Simple Condition에 해당하는가? ",
+            "WorkStageName": "Does it correspond to a Simple Condition?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -531,7 +531,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드] ‘복합조건정의’ 팝업에서 복합조건 정의 (EN) Click Complex condition and check Complex condition  ",
+            "WorkStageName": "The function of this screen is to **define and check complex conditions** within the *Condition Information* mode. <br>  \n① Click **Complex Condition** to open the **Complex Condition Definition** popup. <br>  \n② In the popup, configure the desired **complex conditions** as needed. <br>  \n③ Review the defined conditions and confirm the settings.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -553,7 +553,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드]  수수료값  상세 정보 입력 후 ‘Enter’ 클릭  (EN) [Condition Information mode] enter Fee detail information  and click 'Enter'  ",
+            "WorkStageName": "The function of this screen is to **input and confirm fee details** within the *Condition Information mode*. <br>  \n① **Enter** the required **fee details** in the designated fields. <br>  \n② **Press ‘Enter’** to save and proceed. <br>  \nThis process ensures accurate fee information is recorded for further transactions or analysis.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -652,7 +652,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드] 수수료 값 상세정보 입력 수수료금액을 입력 ‘Enter’ 클릭 (EN) [Condition Information mode] Press Fee detail information  and Click Fee amount ",
+            "WorkStageName": "The function of this screen is to **enter and confirm fee amount details** in **Condition Information mode**. <br>  \n① Select **Fee Detail Information** to input the fee amount. <br>  \n② Enter the **fee amount** in the designated field. <br>  \n③ Click **Enter** to confirm and proceed.",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -729,7 +729,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "Simple Condition에 해당하는가? ",
+            "WorkStageName": "Does it correspond to a Simple Condition?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -751,7 +751,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드] ‘복합조건정의’ 팝업에서 복합조건 정의 (EN) Click Complex condition and check Complex condition  ",
+            "WorkStageName": "The function of this screen is to **define and verify complex conditions** in the **Condition Information** mode. <br>  \n① Click **Complex Condition** to open the **Complex Condition Definition** popup. <br>  \n② In the popup, define the necessary **complex conditions** by specifying multiple criteria. <br>  \n③ Once defined, verify the conditions to ensure they meet the required logic. <br>  \nThis screen allows users to create **advanced filtering conditions** for data processing, ensuring precise selection based on multiple parameters.",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -773,7 +773,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드]  수수료값  상세 정보 입력 후 ‘Enter’ 클릭 (EN) [Condition Information mode] enter Fee detail information  and click 'Enter'   ",
+            "WorkStageName": "The function of this screen is to **input and confirm fee details** in **Condition Information mode**. <br>  \n① Enter the **fee detail information** into the designated fields. <br>  \n② Click **'Enter'** to save and proceed.",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -872,7 +872,7 @@
         {
             "ScenarioCode": "NW_FE_0001",
             "WorkflowName": "Fee Register",
-            "WorkStageName": "(KR) [Condition Information 모드] 수수료 값 상세 정보 입력 수수료율(%)입력 ‘Enter’ 클릭 (EN) [Condition Information Mode] Detail information of fee price and put in fee ratio, click 'Enter'  ",
+            "WorkStageName": "The function of this screen is to **enter and manage fee-related details** in **Condition Information Mode**. <br>  \n① Input the **detailed fee amount** and specify the **fee ratio (%)**. <br>  \n② Press **‘Enter’** to confirm and save the entered values. <br>  \nThis ensures that fee-related data is accurately recorded and applied within the system.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -949,7 +949,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "업무팀 수수료가 아닌 개별 수수료인가?",
+            "WorkStageName": "Is it an individual fee or a business team's fee?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -971,7 +971,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) 업무팀 수수료 발생 (EN) biz team have to fee information  ",
+            "WorkStageName": "The function of this screen is to **display and manage fee information** related to the **business team’s transactions**. <br>  \n① It provides a detailed breakdown of fees incurred by the business team. <br>  \n② Users can **review, update, and verify** fee records for accuracy. <br>  \n③ The system allows for **filtering and searching** based on specific criteria such as transaction type, amount, or date. <br>  \n④ Authorized users can **generate reports** summarizing fee-related data for analysis and compliance purposes.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -993,7 +993,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "후취여부 ",
+            "WorkStageName": "Post-Payment Applicable (Yes/No) ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1015,7 +1015,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) 각 개별 업무팀 화면에서 수수료 징수 처리 (EN) Register fee levy information at the biz system ",
+            "WorkStageName": "The function of this screen is to **process fee collection** for each individual business team.<br>  \n① **Register** fee levy details in the business system.<br>  \n② **Verify** the applicable fees based on predefined rules and transaction data.<br>  \n③ **Confirm and apply** the fee deduction to the relevant accounts.<br>  \n④ **Generate records** for audit and compliance tracking.<br>  \nThis screen ensures accurate and systematic fee processing across different business teams.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1103,7 +1103,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) 미징수 수수료 정보 제공 (EN) providing uncollected levy fee information  ",
+            "WorkStageName": "The function of this screen is to **display and manage uncollected levy fee information** for corporate banking operations. <br>  \n① It retrieves details of **unpaid fees** related to financial transactions. <br>  \n② Users can **review, filter, and search** for specific uncollected fees based on criteria such as date, customer, or transaction type. <br>  \n③ The screen may also provide **options to process outstanding fees**, such as generating notifications or initiating collection actions. <br>  \n④ Additionally, it ensures compliance by **tracking and reporting** uncollected fees according to regulatory or internal policies.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1136,7 +1136,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "후취여부 ",
+            "WorkStageName": "Post-Payment Applicable (Yes/No) ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1180,7 +1180,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "후취여부 (KR) (Register 모드) 거래정보 및 수수료정보, 재무정보(패널l)  등록 후 'Enter' 클릭 (징수예정일자 필수입력) (EN) [Register mode) put in Transaction information, Fee Information, finance information(pannel) and click 'Enter'   ",
+            "WorkStageName": "Post-Payment Applicable <br>\nThe function of this screen is to **register transaction information, fee details, and financial data** in **Register Mode**. <br>  \n① Enter the required **Transaction Information, Fee Information, and Financial Data** in the designated panel. <br>  \n② Ensure that the **Collection Due Date** field is filled in, as it is **mandatory**. <br>  \n③ Click **'Enter'** to complete the registration process.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -1202,7 +1202,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) (Inquriy 모드) 미징수 수수료 정보 조회 후 대상 선택 (EN)  inquiry Uncollected fee information and select target fee information ",
+            "WorkStageName": "The function of this screen is to **inquire about uncollected fee information** and **select specific fee items for processing**. <br>  \n① **Retrieve** a list of outstanding fees that have not yet been collected. <br>  \n② **Review** detailed information for each uncollected fee. <br>  \n③ **Select** the target fees for further action, such as collection or adjustment.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1224,7 +1224,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) (Register 모드) Inquiry 모드에서 선택 된 징수 대상 확인 후  'Enter' 클릭 (ER)   (Register Mode) In Inquiry mode , after checking selected information and click 'Enter'   ",
+            "WorkStageName": "The function of this screen is to **confirm the selected collection target** in **Inquiry mode** and proceed with registration in **Register mode**. <br>  \n① In **Inquiry mode**, verify the selected collection target. <br>  \n② After confirmation, press **\"Enter\"** to proceed to **Register mode**.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1290,7 +1290,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) (Register 모드) 거래정보 및 수수료정보, 재무정보(재무패널) 등록 후 'Enter' 클릭 (EN) [Register mode) put in Transaction information, Fee Information, finance information(pannel) and click 'Enter'   ",
+            "WorkStageName": "The function of this screen is to **register** transaction details, fee information, and financial data in **Register Mode**. <br>  \n① **Enter** the required transaction information, fee details, and financial data in the **Finance Panel**. <br>  \n② After completing the input, **press 'Enter'** to save the data.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1312,7 +1312,7 @@
         {
             "ScenarioCode": "NW_FE_0002",
             "WorkflowName": "Fee Management(Manual)",
-            "WorkStageName": "(KR) (Inquiry 모드) 징수 수수료 조회 후 검색 결과 확인 / (EN) [Inquiry mode]  inquiry collected fee information and check result  ",
+            "WorkStageName": "The function of this screen is to **inquire about collected fee information** and **review the search results**. <br>  \n① **Retrieve collected fee details** based on specified criteria in **Inquiry Mode**. <br>  \n② **Display the search results**, showing relevant fee collection records. <br>  \n③ Allow users to **verify and analyze the collected fees**, ensuring accuracy and compliance.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -1345,7 +1345,7 @@
         {
             "ScenarioCode": "NW_FE_0003",
             "WorkflowName": "Fee Inquiries",
-            "WorkStageName": "(KR) 수수료 변경이력을 조회 (EN) Inquiry Fee Modify History ",
+            "WorkStageName": "The function of this screen is to **inquire about the history of fee modifications** within the system. <br>  \nIt allows users to **review past changes** made to various fees, including details such as the **modification date, previous and updated fee values, and the user who performed the change**. <br>  \n① Users can **search for fee modification records** based on criteria like date range, fee type, or responsible user. <br>  \n② The system displays a **detailed list of modifications**, providing transparency and traceability. <br>  \n③ Users may also **export the modification history** for reporting or auditing purposes.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1356,7 +1356,7 @@
         {
             "ScenarioCode": "NW_FE_0003",
             "WorkflowName": "Fee Inquiries",
-            "WorkStageName": "(KR) 수수료 거래내역 조회 (EN) inquiry Fee Transaction history   ",
+            "WorkStageName": "The function of this screen is to **inquire about fee transaction history** within the system. <br>  \n① Users can **search for past fee transactions** by specifying criteria such as date range, transaction type, or account details. <br>  \n② The system **retrieves and displays a list of matching transactions**, including relevant details such as fee amount, transaction date, and associated accounts. <br>  \n③ Users can **apply filters or sort results** for easier review. <br>  \n④ If needed, the transaction details can be **exported or printed** for record-keeping.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
