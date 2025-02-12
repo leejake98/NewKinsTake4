@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "상품 등록 시  기존 상품을 복사하여 작성할 것인가 ",
+            "WorkStageName": "When registering a product, do you want to copy an existing product?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) 상품을 추가하고자 하는 상품분류 선택  (EN) Select the Product categoty to add the product ",
+            "WorkStageName": "The function of this screen is to **select a product category** before adding a new product. <br>  \n\n① The user **chooses** a product category from the available list. <br>  \n② After selecting a category, the system **enables the option** to add a product under that category. <br>  \n③ The user can then proceed with **entering product details** and completing the addition process. <br>  \n\nThis ensures that each product is correctly classified within the system for **efficient organization and management**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Basic information 모드) 상품기본정보 작성 후 'enter' 클릭 (EN) (Basic information 모드) Fill in information and and press 'Enter' button ",
+            "WorkStageName": "The function of this screen is to **enter basic product information** and proceed to the next step.  \n\n<br>  \n\n① In **Basic Information Mode**, users **input product details** in the designated fields.  \n② After completing the input, **press the \"Enter\" button** to confirm and proceed.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "Condition information 있는가 ",
+            "WorkStageName": "Is there condition information?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -355,7 +355,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Condition information모드) '조건 그룹 조회 팝업'에서 조건 그룹 조회 (EN) (Condition information mode) press 'condition group Inquiry' and inquiry condition group ",
+            "WorkStageName": "The function of this screen is to **inquire about condition groups** in **Condition Information Mode**.  \n\n<br>  \n\n① Press **\"Condition Group Inquiry\"** to open the **Condition Group Inquiry Popup**.  \n② In the popup, search for and select the desired **condition group**.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -377,7 +377,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "추가할 조건 값이 있는가 ",
+            "WorkStageName": "Are there any condition details?",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) 추가할 조건 그룹 및 조건코드 조회 (EN Fill in condition group & condition code and press 'inquiry' button ",
+            "WorkStageName": "The function of this screen is to **retrieve condition groups and condition codes** based on user input. <br>  \n\n① **Enter** or **select** the desired **condition group** and **condition code**. <br>  \n② **Click** the **\"Inquiry\"** button to retrieve relevant information. <br>  \n\nThis screen enables users to efficiently search for and manage condition-related data within the system.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) 상세 내역 작성 후  'ENTER'버튼 클릭 ※ 조건유형 코드가 목록인 경우 공통코드 조회 후 값이 있는 경우 매핑, 미조회 시 512010 화면에서 수기작성/엑셀작성 가능 (EN) fill in values and press 'ENTER' Butteon ",
+            "WorkStageName": "The function of this screen is to **input detailed information and process condition types based on predefined codes**.  \n\n① **Enter the required details** in the provided fields.  \n② **Press the \"ENTER\" button** to proceed.  \n③ If the **condition type code** is available in the list, the system will automatically **map the corresponding value** from the common code database.  \n④ If the condition type code is **not found**, users can **manually enter the data** or **upload an Excel file** via **Screen 512010**.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -487,7 +487,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) 조건그룹  단위로 조건정보 매핑하고 조건정보상세 조회  (EN) Mapping condition information and inquiry condiotn information detail ",
+            "WorkStageName": "The function of this screen is to **map condition information by condition group** and **retrieve detailed condition information**. <br>  \n① **Map** condition information to the corresponding condition group. <br>  \n② **Retrieve and display** detailed information for each mapped condition.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -531,7 +531,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "조건값유형이 단순인지? ",
+            "WorkStageName": "Is the condition value type simple?",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -553,7 +553,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "목록인가 ",
+            "WorkStageName": "Is the condition value type a list?",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -575,7 +575,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "공통코드가 있는가 ",
+            "WorkStageName": "Is there a common code in the condition value type?",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -597,7 +597,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Simple condition 모드)  조건정보 상세 내 정보를 작성하고 ''ENTER' 버튼 클릭 (EN) (Simple condition mode) Fill in condition information detail and press 'Enter' button ",
+            "WorkStageName": "The function of this screen is to **input and confirm condition details in Simple Condition Mode**. <br>  \n① **Enter** the required condition details in the designated fields. <br>  \n② **Press the ‘Enter’ button** to apply and proceed.",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -718,7 +718,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Simple condition 모드)  조건정보상세  내 수기작성 혹은  엑셀 UPLOAD 하여 조건값 추가작성 하고 'ENTER' 버튼 클릭 (EN) (Simple condition mode)  fill in  condition  information detail  by excel upload and press 'Enter' button ",
+            "WorkStageName": "The function of this screen is to **input and manage condition details** in **Simple Condition Mode**. <br>  \n① **Manually enter** condition details or **upload** them using an **Excel file**. <br>  \n② Once the details are added, **press the \"Enter\" button** to confirm and apply the conditions.",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -839,7 +839,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Simple condition 모드)  조건정보 상세 내 정보를 작성하고 ''ENTER' 버튼 클릭 (EN) (Simple condition mode) )  fill in  condition  information detail  and press 'Enter' button  ",
+            "WorkStageName": "The function of this screen is to **input and confirm condition details** in **Simple Condition Mode**. <br>  \n① **Enter** the required **condition details** in the provided fields. <br>  \n② **Click the 'Enter' button** to save and proceed.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -938,7 +938,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Complex condition모드) '복합조건정의' 팝업에서 상품복합조건 작성 후 '확인' 버튼 클릭 (EN)(Complex condition mode) Fill in Product complex condition at register pop-up and press 'confirm' button ",
+            "WorkStageName": "The function of this screen is to **define and register complex product conditions** in **Complex Condition Mode**. <br>  \n① In the **\"Complex Condition Definition\"** pop-up, users **enter product complex conditions** as required. <br>  \n② Once the conditions are set, users click the **\"Confirm\"** button to save and apply them.",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -960,7 +960,7 @@
         {
             "ScenarioCode": "NW_PF_0001",
             "WorkflowName": "Register Product ",
-            "WorkStageName": "(KR) (Complex condition 모드)  조건정보 상세 내 정보를 선택하고 'ENTER' 버튼 클릭 (EN) (Complex condition mode) select complex condition line at and press 'enter' button ",
+            "WorkStageName": "The function of this screen is to **configure complex condition settings** for data filtering or processing. <br>  \n① In **Complex Condition Mode**, select the **detailed condition information** from the list. <br>  \n② Press the **\"ENTER\"** button to apply the selected condition.",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1015,7 +1015,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) ) (Basic condition 모드/inquiry)  변경 대상 상품 조회 (EN) Inquiry product list ",
+            "WorkStageName": "The function of this screen is to **inquire about products subject to modification** in **Basic Condition Mode** or **Inquiry Mode**. <br>  \n① Users can select between **Basic Condition Mode** and **Inquiry Mode** to filter product information. <br>  \n② The system retrieves and displays a **list of products** that meet the specified criteria. <br>  \n③ Users can review the retrieved product details and proceed with further actions as needed.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1037,7 +1037,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) (Basic condition 모드/inquiry)   '기존상품복사' 버튼 클릭 후 Modify 이동 (EN) Press 'previus product copy' and chage modify mode ",
+            "WorkStageName": "The function of this screen is to **copy an existing product and modify its details**. <br>  \n① Click the **'Copy Existing Product'** button. <br>  \n② The system switches to **Modify Mode**, allowing users to edit the copied product's details.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1059,7 +1059,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) (Basic condition 모드/Modify)  상품 정보 변경 후'enter'버튼 클릭  (반드시 판매시작일은 D+1이상이여야 함 必) (EN) (Basic condition Mode/Modify) After Modify product information and press 'enter' button   ",
+            "WorkStageName": "The function of this screen is to **modify product information** in **Basic Condition Mode**. <br>  \n\n① Update the **product information** as needed. <br>  \n② Press the **'Enter' button** to save the changes. <br>  \n③ Ensure that the **sales start date** is at least **D+1** (the following day or later) before proceeding—this is a **mandatory requirement**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -1081,7 +1081,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) (Basic condition 모드/inquiry) 변경 조건 대상 조회  (EN) (Basic condition  mode/inquiry)  inquiry Detail condition lis and press ' register' button  ",
+            "WorkStageName": "The function of this screen is to **inquire about conditions for modification** in **Basic Condition Mode/Inquiry** and register the desired changes. <br>  \n\n① **View** the list of detailed conditions applicable for modification. <br>  \n② **Select** the conditions to be changed. <br>  \n③ **Press the \"Register\" button** to confirm and apply the changes. <br>  \n\nThis screen allows users to efficiently retrieve and update classification criteria based on predefined conditions.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1103,7 +1103,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "조건적용일자가 경과하였는가 ",
+            "WorkStageName": "Has the condition application date passed?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -1125,7 +1125,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) (Basic condition 모드/inquiry )'최종등록완료' 버튼 클릭 (EN) press ' register' button   ",
+            "WorkStageName": "The function of this screen is to **finalize the registration process** in **Basic Condition Mode** or **Inquiry Mode**. <br>  \n① Users can review the entered information before confirming. <br>  \n② To complete the registration, users must **click the ‘Final Registration Complete’ button**. <br>  \n③ Once clicked, the system processes the registration and updates the status accordingly.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -1246,7 +1246,7 @@
         {
             "ScenarioCode": "NW_PF_0002",
             "WorkflowName": "Modify product",
-            "WorkStageName": "(KR) (Basic condition 모드/modify) 변경 조건 대상의 적용상태코드 '미사용' 변경 (EN) After Select condition list and chage status code 'Not use', add condition code ",
+            "WorkStageName": "The function of this screen is to **modify the status code** of a selected condition in **Basic Condition Mode** or **Modify Mode**. <br>  \n① **Select a condition** from the list. <br>  \n② **Change the status code** to **'Not Use'**. <br>  \n③ **Add a new condition code**, if necessary. <br>  \nThis allows users to update the applicable status of a condition efficiently.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1257,7 +1257,7 @@
         {
             "ScenarioCode": "NW_PF_0003",
             "WorkflowName": "Product Basic Classfication System Management",
-            "WorkStageName": "(KR) 상/하위 분류코드를 지정하고자하는 분류코드 LEVEL 선택후, Register Mode에서 상품 대/중/소분류 라디오 버튼 클릭(EN)  If you High / Low Classification Code Add, And then Select to Classification Code Level. After, You Want Add Code Level Radio Button Select. ",
+            "WorkStageName": "The function of this screen is to **assign upper and lower classification codes** and register product classifications. <br>  \n① **Select** the desired **classification code level** for assignment. <br>  \n② In **Register Mode**, **click** the appropriate **radio button** to specify the product classification (**Large, Medium, or Small**).",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1279,7 +1279,7 @@
         {
             "ScenarioCode": "NW_PF_0003",
             "WorkflowName": "Product Basic Classfication System Management",
-            "WorkStageName": "(KR) 상품분류코드 및 분류 설명을 작성 후 'ENETER' (EN) Fill in Product Classfication code & description  for level and  PRESS 'ENTER'  button ",
+            "WorkStageName": "The function of this screen is to **input and classify product information** by specifying a **Product Classification Code** and its **description**. <br>  \n① **Enter** the appropriate classification code and description for the product. <br>  \n② **Press** the **\"ENTER\"** button to confirm and proceed.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1312,7 +1312,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "Product Classification  System Information 이 있는가? ",
+            "WorkStageName": "Is there Product Classification System Information?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1334,7 +1334,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "(KR) (Product Classification System Information 모드) 상품분류체계코드와 분류체계설명을 입력 후 'ENETER' 버튼을 클릭한다  (EN) (Product Classification System Information Mode)  Fill in Product Classfication code & description and  PRESS 'ENTER'  button  ",
+            "WorkStageName": "The function of this screen is to **input and register product classification system information**.  \n\n① Enter the **Product Classification Code** and **Description** in the designated fields. <br>  \n② Click the **\"ENTER\"** button to confirm and save the information.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1389,7 +1389,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "Classification Code Information을 등록하려는가? ",
+            "WorkStageName": "Do you want to register the **Classification Code Information**?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1411,7 +1411,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "(KR) (Classification code Information 모드) 상품분류체계명을 선택 후 분류코드 및 설명을 등록 (EN) (Classification code Information  Mode)  1)Search Product Classification name and fill in Classification code & description  2) press ' ENTER' Butten ",
+            "WorkStageName": "The function of this screen is to **register classification codes and descriptions** based on a selected product classification system. <br>  \n① **Search** for the desired **Product Classification Name**. <br>  \n② **Enter** the corresponding **Classification Code** and **Description**. <br>  \n③ **Press** the **\"ENTER\"** button to save the information.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1466,7 +1466,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "Low Rank Classification Information을 등록하려는가? ",
+            "WorkStageName": "Do you want to register Low Rank Classification Information?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1488,7 +1488,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "(KR) (Low Rank Classification Information모드) Low Rank Classification code 및 설명을 등록 (EN) (Low Rank Classification Information mode) fill in Low Rank Classification code & description and press ' ENTER' Butten ",
+            "WorkStageName": "The function of this screen is to **register and manage Low Rank Classification Information**. <br>  \n① **Enter** the Low Rank Classification **code** and **description**. <br>  \n② **Press** the **\"ENTER\" button** to save the information. <br>  \nThis screen operates in **Low Rank Classification Information mode**, allowing users to efficiently input and update classification data.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1543,7 +1543,7 @@
         {
             "ScenarioCode": "NW_PF_0004",
             "WorkflowName": "Product Expansion Classfication System Management",
-            "WorkStageName": "(KR) (Product Mapping 모드) Basic Classfication 에서 Expansion Classfication 대상을 설정하고 'Enter' 버튼을 클릭 (EN) (Classification code Information  Mode)  select  Expansion Classfication  at Basic Classfication and press 'enter' button ",
+            "WorkStageName": "The function of this screen is to **configure expansion classification** based on a selected basic classification in **Classification Code Information Mode**. <br>  \n① **Select** the desired **Expansion Classification** under the **Basic Classification** section. <br>  \n② **Press** the **\"Enter\"** button to apply the selection.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1598,7 +1598,7 @@
         {
             "ScenarioCode": "NW_PF_0005",
             "WorkflowName": "Product Inquiries",
-            "WorkStageName": "(KR) 상품 변경이력을 조회 (EN) inquiry Product Modify History ",
+            "WorkStageName": "The function of this screen is to **inquire about product modification history** within the system. <br>  \nIt allows users to: <br>  \n① **Retrieve and review** past modifications made to financial products. <br>  \n② **Filter and search** modification records based on specific criteria such as date, product type, or user. <br>  \n③ **View detailed change logs**, including previous and updated values. <br>  \nThis screen helps ensure **accurate tracking of product changes**, supporting compliance and audit requirements.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1609,7 +1609,7 @@
         {
             "ScenarioCode": "NW_PF_0005",
             "WorkflowName": "Product Inquiries",
-            "WorkStageName": "(KR) 상품 목록 정보를 조회 (EN) inquiry Product List Search ",
+            "WorkStageName": "The function of this screen is to **retrieve and display a list of products** registered in the system. <br>  \n① Users can enter search criteria to filter the product list based on specific attributes. <br>  \n② The system processes the request and returns a list of matching products. <br>  \n③ Users can review product details, such as name, category, and availability. <br>  \nThis screen helps users efficiently locate and manage product information within the system.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
