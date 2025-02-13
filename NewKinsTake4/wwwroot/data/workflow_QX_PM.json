@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_PM_0001",
             "WorkflowName": "Inside PO",
-            "WorkStageName": "업무시스템 연계를  통한 전문생성 여부 ? ",
+            "WorkStageName": "Message is generated through interface with the business system\"",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_PM_0001",
             "WorkflowName": "Inside PO",
-            "WorkStageName": "연계시스템에서 전문 자동 생성",
+            "WorkStageName": "automatically generate messages from interfaced systems",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -146,7 +146,7 @@
         {
             "ScenarioCode": "NW_PM_0001",
             "WorkflowName": "Inside PO",
-            "WorkStageName": "[KR]Payment정보 입력 후 등록 [EN]Register payment info then submit ",
+            "WorkStageName": "The function of this screen is to **enter and register payment information** in the system. <br>  \n① The user **inputs the required payment details** into the designated fields. <br>  \n② After verifying the entered information, the user **submits the payment registration request**. <br>  \n③ The system **saves the payment information** and confirms successful registration.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -223,7 +223,7 @@
         {
             "ScenarioCode": "NW_PM_0001",
             "WorkflowName": "Inside PO",
-            "WorkStageName": "[KR]Payment 정보 입력 후 등록 ( 수기등록 ) [EN]Register payment info then submit ",
+            "WorkStageName": "The function of this screen is to **manually register and submit payment information**. <br>  \n① **Enter payment details** into the designated fields. <br>  \n② **Review the entered information** for accuracy. <br>  \n③ **Confirm and submit** the payment registration. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -300,7 +300,7 @@
         {
             "ScenarioCode": "NW_PM_0002",
             "WorkflowName": "Outside PO",
-            "WorkStageName": "[KR]Payment 정보 수정 후 등록 [EN]Modify payment info then submit",
+            "WorkStageName": "The function of this screen is to **modify payment information and submit the updated details**. <br>  \n① **Edit** the required payment details. <br>  \n② **Review** the changes to ensure accuracy. <br>  \n③ **Submit** the updated information to finalize the modification.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -498,7 +498,7 @@
         {
             "ScenarioCode": "NW_PM_0002",
             "WorkflowName": "Outside PO",
-            "WorkStageName": "[KR]SWIFT: 타행으로부터 PO접수  [EN]Receive PO from other banks via SWIFT",
+            "WorkStageName": "The function of this screen is to **receive and process Payment Orders (PO) from other banks via the SWIFT network**. <br>  \n① The system automatically retrieves incoming PO messages from SWIFT. <br>  \n② It validates the payment details, ensuring compliance with internal and regulatory requirements. <br>  \n③ Authorized users can review, approve, or reject the received PO transactions. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -520,7 +520,7 @@
         {
             "ScenarioCode": "NW_PM_0002",
             "WorkflowName": "Outside PO",
-            "WorkStageName": "[KR]Payment 정보 수정 후 등록 [EN]Modify payment info then submit ",
+            "WorkStageName": "The function of this screen is to **modify payment information and submit the updated details**. <br>  \n① **Edit** the required payment details. <br>  \n② **Review** the changes to ensure accuracy. <br>  \n③ **Submit** the updated information to finalize the modification.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -542,7 +542,7 @@
         {
             "ScenarioCode": "NW_PM_0002",
             "WorkflowName": "Outside PO",
-            "WorkStageName": "NewYork 지점? ",
+            "WorkStageName": "**New York Branch**? ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
