@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "(KR) 등록하고자하는 기준금리코드가 이미 존재하는지 조회거래를 통해 확인한다. (EN)Check whether the index rate you want to register already exists through the inquiry transaction. ",
+            "WorkStageName": "The function of this screen is to **verify whether an index rate code already exists** before registration. <br>  \n① The system performs an **inquiry transaction** to check for any existing records matching the specified index rate code. <br>  \n② If the code is found, the user is notified, preventing duplicate registrations. <br>  \n③ If no matching record exists, the user can proceed with the registration process.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "등록하고자 하는 기준금리코드가 존재하는가? ",
+            "WorkStageName": "Does base interest rate code you want to register already exist?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "(KR) 기준금리코드를 등록한다 (EN) Register new index rate codes ",
+            "WorkStageName": "The function of this screen is to **register and manage index rate codes** used in financial operations. <br>  \n① Users can **create new index rate codes** by entering relevant details such as rate type, validity period, and associated financial instruments. <br>  \n② The system **validates the input data** to ensure compliance with internal policies and regulatory requirements. <br>  \n③ Once registered, the index rate codes **can be referenced** in various financial transactions and reporting processes. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN)Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether registered or modified items have been applied correctly** by performing an **inquiry transaction**. <br>  \n① Users can initiate an inquiry to retrieve details of the registered or updated data. <br>  \n② The system retrieves and displays the latest status of the specified items. <br>  \n③ If discrepancies are found, users can take corrective actions accordingly. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -124,7 +124,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "변경할 사항이 존재하는가? ",
+            "WorkStageName": "Are there any changes to be made?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -146,7 +146,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "(KR) 기준금리코드 정보를 수정한다 (EN) Switch to modify mode and edit index rate codes ",
+            "WorkStageName": "The function of this screen is to **modify index rate codes** in the system. <br>  \n① Switch to **edit mode** to update the existing index rate codes. <br>  \n② Make the necessary modifications, such as adjusting rate values or descriptions. <br>  \n③ Save the changes to apply them to the system. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -223,7 +223,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "기준금리코드를 삭제할 것인가? ",
+            "WorkStageName": "Do you want to **delete the base interest rate code**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -344,7 +344,7 @@
         {
             "ScenarioCode": "NW_RT_0001",
             "WorkflowName": "Index Rate Code Management",
-            "WorkStageName": "(KR) 수정모드에서 삭제하고자 하는 기준금리의 상태를 'DELETE'로 변경해준다. (EN) Switch to modify mode and change Status to 'DELETE' ",
+            "WorkStageName": "The function of this screen is to **modify the status of a benchmark interest rate for deletion**. <br>  \n① **Switch to Modify Mode** to enable changes. <br>  \n② **Update the Status field to** `\"DELETE\"`, indicating that the benchmark interest rate is marked for removal. <br>  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_RT_0002",
             "WorkflowName": "Index Rate Management",
-            "WorkStageName": "본점 기준금리 연동 (하루 3회 한국시간 기준 7:30, 21:30, 22:30  연동) ",
+            "WorkStageName": "**Head Office Base Interest Rate Linkage** (Updated **three times per day** based on Korea Standard Time: **07:30, 21:30, and 22:30**)",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_RT_0002",
             "WorkflowName": "Index Rate Management",
-            "WorkStageName": "(KR) 본점 혹은 MUIREX에서 연동된 기준금리를 확인하고, 이상이 없으면 적용 후 당일 기준금리를 등록한다 (EN)Check interfaced index rates (from KUPID or MUREX), and if the numbers are right, apply them and enter index rates of the day. ",
+            "WorkStageName": "The function of this screen is to **retrieve and verify interfaced index rates** from **KUPID or MUREX** and **register the daily index rate**. <br>  \n① **Check the interfaced index rates** from KUPID or MUREX. <br>  \n② **Verify accuracy** to ensure there are no discrepancies. <br>  \n③ **Apply the confirmed index rates** if they are correct. <br>  \n④ **Register the final index rates** for the current day.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -443,7 +443,7 @@
         {
             "ScenarioCode": "NW_RT_0002",
             "WorkflowName": "Index Rate Management",
-            "WorkStageName": "(KR) 등록한 사항이 잘 적용되었는지 조회모드에서 확인한다. (EN) Switch to Inquiry mode and check if index rates are registered properly. ",
+            "WorkStageName": "The function of this screen is to **switch to Inquiry mode** and **verify the proper registration of index rates**. <br>  \n① **Access the Inquiry mode** to review the recorded index rates. <br>  \n② **Check if the index rates have been successfully registered** in the system. <br>  \n③ **Ensure accuracy and completeness** of the registered data before proceeding with further operations.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -476,7 +476,7 @@
         {
             "ScenarioCode": "NW_RT_0003",
             "WorkflowName": "Activity Cost Inquiry",
-            "WorkStageName": "업무원가 연동 ",
+            "WorkStageName": "Activity costs linkage",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -498,7 +498,7 @@
         {
             "ScenarioCode": "NW_RT_0003",
             "WorkflowName": "Activity Cost Inquiry",
-            "WorkStageName": "(KR) 업무원가를 조회한다. (EN)Inquire activity costs ",
+            "WorkStageName": "The function of this screen is to **retrieve and display activity costs** associated with various business operations.<br>  \n① Users can **input specific criteria** such as date range, cost category, or department to filter the results.<br>  \n② The system **calculates and presents detailed cost breakdowns**, including direct and indirect expenses.<br>  \n③ Users can **analyze trends, compare costs across periods, and generate reports** for further review.<br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -531,7 +531,7 @@
         {
             "ScenarioCode": "NW_RT_0004",
             "WorkflowName": "PD Data Inquiry",
-            "WorkStageName": "예상부도율 연동 ",
+            "WorkStageName": "Probability of Default (PD) linkage",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -553,7 +553,7 @@
         {
             "ScenarioCode": "NW_RT_0004",
             "WorkflowName": "PD Data Inquiry",
-            "WorkStageName": "(KR) 예상부도율을 조회한다. (EN)Inquire PD Data ",
+            "WorkStageName": "The function of this screen is to **inquire Probability of Default (PD) data** for corporate customers.<br>  \n① Users can search for PD values based on various criteria, such as customer ID, rating category, or evaluation date.<br>  \n② The system retrieves and displays relevant PD information, including historical trends and risk classifications.<br>  \n③ Users can export the PD data for further analysis or reporting.<br>  \nThis screen helps financial analysts and risk managers **assess credit risk** by providing up-to-date PD metrics, enabling informed decision-making in corporate lending and risk assessment.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -586,7 +586,7 @@
         {
             "ScenarioCode": "NW_RT_0005",
             "WorkflowName": "FTP Spread Inquiry",
-            "WorkStageName": "외화 FTP 스프레드 연동 ",
+            "WorkStageName": "Foreign Currency FTP Spreads linkage",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -608,7 +608,7 @@
         {
             "ScenarioCode": "NW_RT_0005",
             "WorkflowName": "FTP Spread Inquiry",
-            "WorkStageName": "(KR) 외화 FTP 스프레드를 조회한다. (EN)Inquire FTP Spreads ",
+            "WorkStageName": "The function of this screen is to **retrieve and display Foreign Currency FTP Spreads** for analysis and reference. <br>  \n① Users can **input search criteria** such as currency type, date range, or specific financial products. <br>  \n② The system **fetches FTP spread data** based on the entered criteria and presents it in a structured format. <br>  \n③ Users can **review, compare, and analyze** the displayed FTP spreads to support decision-making. <br>  \n④ If needed, the data can be **exported or further refined** using additional filters.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -641,7 +641,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "(KR) 등록하고자 하는 여신가산금리코드가 존재하는지 조회를 통해 확인한다  (EN)Check whether the currency you want to register exists through the inquiry transaction. ",
+            "WorkStageName": "The function of this screen is to **verify whether a loan spread rate code exists** before registration. <br>  \n① **Perform an inquiry transaction** to check if the specified loan spread rate code is already in the system. <br>  \n② If the code exists, review the details before proceeding. <br>  \n③ If the code does not exist, proceed with the registration process.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -663,7 +663,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "등록하고자 하는 여신 가산금리 코드가 존재하는가? ",
+            "WorkStageName": "Does the **loan interest rate spread code** to be registered exist?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -685,7 +685,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "(KR) 여신가산금리코드를 등록한다 (EN) Register currency information  ",
+            "WorkStageName": "The function of this screen is to **register and manage loan interest rate spread codes**. <br>  \n<br>  \n① Users can **input, modify, and save** interest rate adjustment codes associated with loan products. <br>  \n② The system **validates the entered codes** to ensure compliance with predefined rules. <br>  \n③ Once registered, these codes are **applied to loan calculations**, influencing the final interest rate for corporate or individual borrowers. <br>  \n④ Users can also **review existing codes** and update them as needed to reflect policy changes. <br>  \n",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -707,7 +707,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether the registered or modified items have been applied correctly** through an **inquiry transaction**. <br>  \n① The user selects the relevant record or criteria for verification. <br>  \n② The system retrieves and displays the latest status of the registered or modified data. <br>  \n③ The user reviews the details to confirm successful application. <br>  \nThis screen ensures **data accuracy and consistency** by allowing users to check updates in real time.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -762,7 +762,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "변경할 사항이 존재하는가? ",
+            "WorkStageName": "Are there any changes to be made?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -784,7 +784,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "(KR) 통화관련 정보를 수정한다. (EN) Modify currency information",
+            "WorkStageName": "The function of this screen is to **modify currency-related information** within the system. <br>  \n① Users can **view and edit** currency details such as exchange rates, currency codes, and applicable regions. <br>  \n② The system allows **adding new currencies, updating existing records, or deactivating outdated currencies** as needed. <br>  \n③ Changes made on this screen are **validated and saved** to ensure accuracy and compliance with financial regulations. <br>  \n④ Once modifications are confirmed, the updated currency information is **applied across relevant banking operations and reports**.",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -828,7 +828,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "여신가산금리코드를 삭제할 것인가? ",
+            "WorkStageName": "Do you want to delete the additional loan interest spread code?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -894,7 +894,7 @@
         {
             "ScenarioCode": "NW_RT_0006",
             "WorkflowName": "Loan Spread Code Management",
-            "WorkStageName": "(KR) 수정 모드로 변경 후, 여신가산금리코드의 상태를 삭제로 변경해준다.  (EN) Switch to modify mode and change Status to 'DELETE' ",
+            "WorkStageName": "The function of this screen is to **update the status of the loan spread rate code**. <br>  \n① **Switch to modify mode** to enable editing. <br>  \n② **Change the status field** to **\"DELETE\"** to mark the loan spread rate code for removal. <br>  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -938,7 +938,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "여신가산금리 일부 항목 연동 / 연동 항목 : 만기대응 스프레드 외화건전성부담금 신보출연료율 업무원가상하한 처분비중 구조조정비중 구조조정회수율 회복율 전략조정스프레드 / 변동사항이 있을때마다 연동   ",
+            "WorkStageName": "**Linked Items for Loan Interest Spread Rate / Linked Items:**  \n- **Maturity-Linked Spread** (만기대응 스프레드)  \n- **Foreign Currency Soundness Surcharge** (외화건전성부담금)  \n- **Korea Credit Guarantee Fund Contribution Rate** (신보출연료율)  \n- **Activity Cost Upper and Lower Limits** (업무원가상하한)  \n- **Disposition Ratio** (처분비중)  \n- **Restructuring Ratio** (구조조정비중)  \n- **Restructuring Recovery Rate** (구조조정회수율)  \n- **Recovery Rate** (회복율)  \n- **Strategic Adjustment Spread** (전략조정스프레드)  \n\nThese items **are linked and updated whenever there are changes**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -960,7 +960,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "(KR) 등록하고자하는 여신가산금리가 존재하는지 조회거래를 통해 확인한다. (EN)Check whether the loan spread you want to register exists through the inquiry transaction. ",
+            "WorkStageName": "The function of this screen is to **verify the existence of a loan spread** before registration. <br>  \n① **Perform an inquiry transaction** to check whether the specified loan spread is already registered in the system. <br>  \n② If the loan spread exists, review the details before proceeding. <br>  \n③ If the loan spread does not exist, proceed with the registration process.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -982,7 +982,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "등록하고자 하는  여신 가산금리 값이 존재하는가? ",
+            "WorkStageName": "Does the ** loan interest spread rate** value to be registered exist?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1004,7 +1004,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "(KR) 여신가산금리를 등록한다 (EN) Register loan spread ",
+            "WorkStageName": "The function of this screen is to **register and manage loan spreads** for credit extensions. <br>  \n① **Input** the additional interest rate (spread) applied to a base loan rate. <br>  \n② **Specify** relevant details such as loan type, term, and applicable conditions. <br>  \n③ **Save** the spread information, making it available for loan pricing calculations. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1026,7 +1026,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether registered or modified items have been properly applied** through an **inquiry transaction**. <br>  \n① Users can enter specific criteria to search for registered or updated records. <br>  \n② The system retrieves and displays relevant data, allowing users to confirm the accuracy of recent changes. <br>  \n③ If discrepancies are found, users may need to review or correct the registration or modification process. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1081,7 +1081,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "변경할 사항이 존재하는가? ",
+            "WorkStageName": "Are there any **changes to be made**?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1103,7 +1103,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "(KR)  여신가산금리를 수정한다. (EN) Modify loan spread information ",
+            "WorkStageName": "The function of this screen is to **modify loan spread rates** for credit operations.<br>  \n① Users can **review and adjust** the loan spread applied to specific credit products or customer segments.<br>  \n② The system allows for **manual input or automated recalculations** based on predefined criteria.<br>  \n③ Once updated, the modified loan spread is **saved and applied** to relevant loan agreements.<br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1158,7 +1158,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "여신가산금리를 삭제할 것인가?",
+            "WorkStageName": "Do you want to **delete loan interest spread rate**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1235,7 +1235,7 @@
         {
             "ScenarioCode": "NW_RT_0007",
             "WorkflowName": "Loan Spread Management",
-            "WorkStageName": "(KR) 여신가산금리를 삭제 상태로 변경한다. (EN) Switch to modify mode and change staus to 'DELETE' ",
+            "WorkStageName": "The function of this screen is to **modify the status of an additional loan interest rate**. <br>  \n① **Switch to modify mode** to enable editing. <br>  \n② **Change the status to 'DELETE'** to mark the additional loan interest rate for removal. <br>  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
