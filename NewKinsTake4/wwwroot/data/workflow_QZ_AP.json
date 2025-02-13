@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether registered or modified items have been properly applied** through an **inquiry transaction**. <br>  \n① Users can enter search criteria to retrieve specific records. <br>  \n② The system displays the relevant details of the registered or modified items. <br>  \n③ Users can review the information to confirm accuracy and completeness. <br>  \n④ If discrepancies are found, further modifications can be made through the appropriate update process. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether registered or modified items have been properly applied** through an **inquiry transaction**. <br>  \n① Users can enter search criteria to retrieve specific records. <br>  \n② The system displays the relevant details of the registered or modified items. <br>  \n③ Users can review the information to confirm accuracy and completeness. <br>  \n④ If discrepancies are found, further modifications can be made through the appropriate update process. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -102,7 +102,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "변경할 사항이 존재하는가? ",
+            "WorkStageName": "Are there any modifications required?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -124,7 +124,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "(KR)  책임자승인사유 코드 정보를 수정한다. (EN) Modify approval code information ",
+            "WorkStageName": "The function of this screen is to **modify approval reason codes** used for managerial authorization. <br>  \n① Users can view existing approval reason codes and their details. <br>  \n② They can update, delete, or add new codes based on approval policies. <br>  \n③ The system ensures that all modifications comply with predefined authorization rules. <br>  \n④ Once changes are made, they must be confirmed and saved to take effect. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -168,7 +168,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "책임자승인 사유코드를 삭제할 것인가? ",
+            "WorkStageName": "**Do you want to delete the reason code for manager approval?**",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -234,7 +234,7 @@
         {
             "ScenarioCode": "NW_AP_0001",
             "WorkflowName": "Approval Code Management",
-            "WorkStageName": "(KR) 수정 모드로 변경 후,  삭제하고자 하는 리소스의 상태를 'DELETE'로 변경한다.  (EN) Switch to modify mode and chage Status to 'DELETE' ",
+            "WorkStageName": "The function of this screen is to **delete code** by updating its status. <br>  \n\n① **Switch to modify mode** to enable editing. <br>  \n② **Change the code's status** to **\"DELETE\"** to mark it for removal. <br>  \n③ The system will process the deletion based on this updated status. <br>  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -300,7 +300,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "(KR) 거래별로 책임자승인 사유 코드를 매핑한다 (EN) Set approval code to transaction ID ",
+            "WorkStageName": "The function of this screen is to **mapping an approval reason code to each transaction ID**. <br>  \n① The system retrieves the transaction details. <br>  \n② Users select or input the appropriate **approval reason code** for the transaction. <br>  \n③ The system validates the selected code against predefined rules. <br>  \n④ Upon confirmation, the approval reason code is **assigned to the transaction ID** and stored in the system. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -322,7 +322,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify whether registered or modified items have been properly applied** through an **inquiry transaction**. <br>  \n① Retrieve the relevant records based on specified search criteria. <br>  \n② Review the details of the registered or modified items. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "거래-책임자승인사유코드 관계에 변경할 사항이 존재하는가? ",
+            "WorkStageName": "**Is there any change to be made in the relationship between the transaction and the responsible approver reason code?**",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "(KR)  거래별로 매핑된 책임자승인 사유 코드 관계 정보를 수정한다. (EN)  Modify approval code relation detail which is set to transaction ID ",
+            "WorkStageName": "The function of this screen is to **modify the relationship between approval reason codes and transaction IDs**. <br>  \n① Users can **view, edit, or update** the approval reason codes assigned to specific transactions. <br>  \n② The system ensures that all **modifications are validated** before saving changes. <br>  \n③ Users can **search for transactions** using various filters, such as transaction ID, approval code, or approval status. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -465,7 +465,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "거래-책임자승인사유코드간 관계를 취소할 것인가? ",
+            "WorkStageName": "\"Do you want to cancel the relationship between the **Transaction** and the **Responsible Approver Reason Code**?\"",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -531,7 +531,7 @@
         {
             "ScenarioCode": "NW_AP_0002",
             "WorkflowName": "Transaction/Approval Code Relation Management",
-            "WorkStageName": "(KR) 수정 모드로 변경 후,  삭제하고자 하는 거래의 책임자승인사유 관계 상태를 'CANCEL'로 변경한다.  (EN) Switch to modify mode and chage Status to 'CANCEL' ",
+            "WorkStageName": "The function of this screen is to **modify the approval status** of a transaction marked for deletion. <br>  \n① **Switch to modify mode** to enable editing. <br>  \n② Update the **approval reason status** to **'CANCEL'** to proceed with the deletion process.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -597,7 +597,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "(KR) 사용자별 결재선을 조회거래를 통해 확인한다. (EN)Check approval lines set to users through the inquiry transaction. ",
+            "WorkStageName": "The function of this screen is to **inquire about approval lines assigned to users** through a designated transaction. <br>  \n① The system retrieves approval line details linked to each user. <br>  \n② Users can view structured approval hierarchies and authorization levels. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -619,7 +619,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "결재선이 존재하는가? ",
+            "WorkStageName": "Is an approval line in workflow?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -641,7 +641,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "(KR) 결재선을 등록한다 (EN) Set approval lines  ",
+            "WorkStageName": "The function of this screen is to **configure and register approval lines** for business transactions and document workflows. <br>  \n① Users can define **multiple approval stages** and assign approvers based on organizational hierarchy or specific roles. <br>  \n② The system allows for **customizing approval sequences**, ensuring compliance with internal policies. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -663,7 +663,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "(KR) 등록/수정한 사항이 정상 적용되었는지 조회거래를 통해 확인한다 (EN) Check whether registered/modified items are applied properly through inquiry transaction ",
+            "WorkStageName": "The function of this screen is to **verify** whether the **registered or modified items** have been successfully applied through an **inquiry transaction**. <br>  \n① Users can perform an inquiry transaction to retrieve and review the latest status of the registered or modified data. <br>  \n② The system fetches and displays the relevant details, allowing users to confirm the accuracy of the applied changes. <br>  \n",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -718,7 +718,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "변경할 사항이 존재하는가? ",
+            "WorkStageName": "Are there any modifications required?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -740,7 +740,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "(KR)  결재선 정보를 수정한다. (EN) Modify approval line detail ",
+            "WorkStageName": "The function of this screen is to **modify the approval line details** in the system.<br>  \n① Users can view the existing approval line and make necessary adjustments.<br>  \n② They can **add, remove, or reorder approvers** based on organizational requirements.<br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -795,7 +795,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "결재선을 삭제할 것인가? ",
+            "WorkStageName": " delete the **approval line**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -872,7 +872,7 @@
         {
             "ScenarioCode": "NW_AP_0003",
             "WorkflowName": "Approval Line Management",
-            "WorkStageName": "(KR) 수정 모드로 변경 후,  삭제하고자 하는 결재선의 상태를 'DELETE'로 변경한다.  (EN) Switch to modify mode and chage Status to 'DELETE' ",
+            "WorkStageName": "The function of this screen is to **delete an approval line** by updating its status.  \n\n① **Switch to modify mode** to enable editing. <br>  \n② Change the **status** of the approval line to **'DELETE'** to mark it for removal.  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -927,7 +927,7 @@
         {
             "ScenarioCode": "NW_AP_0004",
             "WorkflowName": "Approval History Inquiry",
-            "WorkStageName": "(KR) 책임자승인 처리내역을 조회한다. (EN)Inquire approval history ",
+            "WorkStageName": "The function of this screen is to **inquire the approval history** of transactions or requests that require managerial authorization. <br>  \n① Users can search for past approval records based on various criteria such as date, approver, or transaction type. <br>  \n② The screen displays key details, including approval status, timestamps, and any comments provided by the approver. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -960,7 +960,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "거래를 시도한다",
+            "WorkStageName": "Attempt a transaction",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -982,7 +982,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "책임자 승인 거래인가? ",
+            "WorkStageName": "Is the transaction approved by a manager?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1147,7 +1147,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "책임자 승인 요청이 정상적으로 이루어지고 있는가? ",
+            "WorkStageName": "Is the **approval request** being processed correctly?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1312,7 +1312,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "책임자 승인 사유코드가 등록되어있는가? ",
+            "WorkStageName": "**Is the approval reason code registered?**",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1334,7 +1334,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "해당 거래ID와  책임자 승인 사유코드가 매핑되어 있는가? ",
+            "WorkStageName": "Is the **transaction ID** mapped to the **approval reason code**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1356,7 +1356,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "결재선이 등록되어있는가? ",
+            "WorkStageName": "\"Is the approval line registered?\"",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -1378,7 +1378,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "전산 관리자에게 문의한다",
+            "WorkStageName": "contact the system administrator",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1499,7 +1499,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "책임자승인사유 코드를 등록한다 ",
+            "WorkStageName": "register the approval reason code",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1521,7 +1521,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "결재선을 등록한다 ",
+            "WorkStageName": "register the approval line",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1653,7 +1653,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "거래ID와 책임자승인 사유 코드를 매핑한다 ",
+            "WorkStageName": "map transaction IDs with approval reason codes",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1895,7 +1895,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "결재선이 여러개 존재하는가? ",
+            "WorkStageName": "Does multiple approval lines exist?",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1917,7 +1917,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": " 결재선을 선택한다. ",
+            "WorkStageName": "select an approval line",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -2082,7 +2082,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "(요청자) 책임자승인을 요청한다. ",
+            "WorkStageName": "The **requester** submits a request for ** approval**.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -2104,7 +2104,7 @@
         {
             "ScenarioCode": "NW_AP_0005",
             "WorkflowName": "Approval Request Process",
-            "WorkStageName": "(승인자) 책임자승인 요청을 승인하거나 거절한다. ",
+            "WorkStageName": "**Approver**: Approves or rejects an **approval request**.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
