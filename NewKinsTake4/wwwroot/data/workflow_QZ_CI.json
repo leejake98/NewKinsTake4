@@ -3,7 +3,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) CB팀이 Request for Registration of Customer 양식을 전달하여 OP팀에 고객 등록을 요청함 (EN) CB team request OP team to register new customer ",
+            "WorkStageName": "The function of this screen is to **facilitate customer registration requests** from the CB team to the OP team. <br>  \n① The **CB team submits the \"Request for Registration of Customer\" form** through the system. <br>  \n② The **OP team reviews the request and processes the customer registration** accordingly. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 고객 중복 등록 방지를 위해 본점 DB에서의 고객번호 유무를 조회함 (EN) Inquire CIF No. in HQ DB to avoid duplication ",
+            "WorkStageName": "The function of this screen is to **check for duplicate customer registrations** by verifying the existence of a **Customer Identification File (CIF) number** in the **Headquarters (HQ) database**. <br>  \n① **Search the HQ database** for the provided CIF number. <br>  \n② If a matching CIF number exists, **prevent duplicate registration**. <br>  \n③ If no match is found, **proceed with new customer registration**. <br>  \nThis process ensures data integrity by avoiding redundant customer records.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "CIF No. 조회 ",
+            "WorkStageName": "**Search CIF No.** (Customer Information File Number)",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -179,7 +179,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "개인  고객? ",
+            "WorkStageName": "Is this an **individual customer**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -201,7 +201,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "국내 거주 고객? ",
+            "WorkStageName": "Is the customer a **domestic resident**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -223,7 +223,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 국외거주고객 의 BIC 코드를 조회 및 채번함 (EN) Inquire BIC code in HQ DB to avoid duplication of non-Korea resident customer ",
+            "WorkStageName": "The function of this screen is to **retrieve and generate a BIC code for non-Korea resident customers**. <br>  \n① **Search the HQ database** to check for existing BIC codes and prevent duplication. <br>  \n② **Assign a new BIC code** if no matching record is found. <br>  \nThis process ensures that each non-Korea resident customer has a unique and valid BIC code in the system.",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -245,7 +245,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "BIC Code 조회 BIC Code 채번  ",
+            "WorkStageName": "**BIC Code Inquiry and BIC Code Generation**",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -377,7 +377,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 고객 등록을 위해 Customer ID를 입력함 (EN) Input Customer ID to register new non-Korea resident customer ",
+            "WorkStageName": "The function of this screen is to **register a new non-Korea resident customer**. <br>  \n① **Enter the Customer ID** to initiate the registration process. <br>  \n② The system verifies the ID and proceeds with customer registration. <br>  \nThis ensures accurate identification and proper record creation for non-Korea resident customers.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "입력된 Customer ID의 본점 고객정보 선조회   ",
+            "WorkStageName": "Preretrieve **head office customer information** for the entered **Customer ID**.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "국내 거주 기업? ",
+            "WorkStageName": "Is the company **domestically located**?",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -443,7 +443,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 조회된 정보 외 CB팀으로부터 전달받은 Request for Registration of Customer 양식의 고객정보를 입력함 (EN) Input customer information from \"Request for Registration of Customer\" ",
+            "WorkStageName": "The function of this screen is to **input customer information from the \"Request for Registration of Customer\" form received from the CB team**. <br>  \n① **Review the retrieved information** displayed on the screen. <br>  \n② **Enter additional customer details** based on the form provided by the CB team. <br>  ",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -465,7 +465,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 타점포에서 해당 고객에 대해 수행한 KYC 수행 결과와 WLF / Country Sanctions Filtering 결과를 조회함 (EN) Inquiry Customer KYC, WLF and Country Filtering Result which have been proceed in other Bank  ",
+            "WorkStageName": "The function of this screen is to **inquire about the KYC results and sanction screening outcomes** conducted at other branches. <br>  \n① **Retrieve the KYC (Know Your Customer) verification results** performed for the selected customer at a different branch. <br>  \n② **View the WLF (Watchlist Filtering) and Country Sanctions Filtering results** associated with the customer. <br>  ",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -520,7 +520,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 추가 항목 입력 (EN) Input customer information  ",
+            "WorkStageName": "The function of this screen is to **input additional items** as required. <br>  \n① **Enter the necessary information** into the designated fields. <br>  \n② **Review the entered data** to ensure accuracy. <br>  \n③ **Confirm and save** the input to update the system. <br>  \nThis screen allows users to add and manage supplementary details efficiently.",
             "DisplayLayoutRow": "10",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -729,7 +729,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(신규) CIF No. 채번 & 고객정보 등록 (기고객) 고객정보 업데이트  ",
+            "WorkStageName": "**(New Customer)** Generate **CIF No.** and register customer information. <br>  \n**(Existing Customer)** Update customer information.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -751,7 +751,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "(KR) 점포내 고객의 거래 유무 및 계좌 상태를  확인하여 KYC 대상 여부를 파악 거래요청고객이  신규 고객인 경우: 신규계좌개설 여부, 일회성 거래 시 기준금액 초과 여부를 확인하여 KYC 대상 여부를 파악함 - 상기 식별 요건에 따라 고객이 KYC 대상일 경우, CDD 수행이 필수임을 알리는 팝업화면 노출 ",
+            "WorkStageName": "The function of this screen is to **verify a customer's transaction history and account status** to determine **KYC (Know Your Customer) eligibility**. <br>  \n① **Check whether the customer has previous transactions** at the branch and review the account status. <br>  \n② If the customer is **new**, verify whether a **new account is being opened** or if a **one-time transaction exceeds the threshold amount**. <br>  \n③ If the customer meets the KYC criteria, display a **popup notification** indicating that **CDD (Customer Due Diligence) is required**.",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -773,7 +773,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "KYC 대상?",
+            "WorkStageName": "Is this entity **subject to KYC (Know Your Customer) requirements**?",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -795,7 +795,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "뉴욕지점? ",
+            "WorkStageName": "**New York Branch**? ",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -839,7 +839,7 @@
         {
             "ScenarioCode": "NW_CI_0001",
             "WorkflowName": "Register New Customer",
-            "WorkStageName": "고객정보 업데이트  ",
+            "WorkStageName": "**Customer Information Update**",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -960,7 +960,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 지점에서 고객 정보 수정 니즈 발생 ",
+            "WorkStageName": "The function of this screen is to **process customer information update requests from branches**. <br>  \n① **Receive modification requests** when a branch identifies the need to update customer information. <br>  \n② **Allow authorized users to edit and save changes** to ensure accurate and up-to-date customer records. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -982,7 +982,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "해당 니즈 발생 지점이 고객 관리부점? ",
+            "WorkStageName": "Is this a **customer management branch**?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1004,7 +1004,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 고객정보 수정 대상 고객을 조회함 (EN) Inquire customer information to modify ",
+            "WorkStageName": "The function of this screen is to **retrieve customer information for modification**. <br>  \n① **Search for the target customer** whose information needs to be updated. <br>  \n② **Display the relevant customer details** to verify and proceed with modifications. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -1026,7 +1026,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "입력된 Customer ID의  고객정보 변경 이력 확인 필요?",
+            "WorkStageName": "Do you need to **review the change history of the customer information** for the entered **Customer ID**?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -1048,7 +1048,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 조회한 고객정보를 수정함 (EN) Modify customer information ",
+            "WorkStageName": "The function of this screen is to **modify retrieved customer information**. <br>  \n① **Search for and retrieve customer information** from the system. <br>  \n② **Make necessary modifications** to the customer's details. <br>  \n③ **Save the updated information** to ensure the changes are applied. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1103,7 +1103,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 관리부점(고객 정보 등록 부점)에 정보 수정 요청 ",
+            "WorkStageName": "The function of this screen is to **request information updates from the managing branch** (the branch responsible for customer information registration). <br>  \n① **Select the target customer record** requiring modification. <br>  \n② **Submit a request** to the managing branch for updates. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1114,7 +1114,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "본점 변경? ",
+            "WorkStageName": "Is this a **head office modification**?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Fork",
@@ -1136,7 +1136,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 고객정보 변경 이력 목록을 조회함 (EN) Inquire customer information change history ",
+            "WorkStageName": "The function of this screen is to **retrieve and display the history of customer information changes**. <br>  \n① **Search for customer records** based on specified criteria. <br>  \n② **View a list of changes** made to customer information, including modified fields, timestamps, and responsible users. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1213,7 +1213,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "(KR) 본점 변경 사항 조회 (EN) Inquire Head Office Customer Amend History ",
+            "WorkStageName": "The function of this screen is to **inquire about amendments made by the Head Office**. <br>  \n① **Retrieve a history of changes** related to customer information or transactions made by the Head Office. <br>  \n② **View detailed amendment records**, including the date, type of modification, and responsible user. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1367,7 +1367,7 @@
         {
             "ScenarioCode": "NW_CI_0002",
             "WorkflowName": "Modify Customer Information",
-            "WorkStageName": "뉴욕지점? ",
+            "WorkStageName": "**New York Branch**? ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1488,7 +1488,7 @@
         {
             "ScenarioCode": "NW_CI_0003",
             "WorkflowName": "Inquire Customer Information by Condition",
-            "WorkStageName": "(KR) 필요 조건에 따라 고객정보를 조회함 (EN) Inquire customer list by conditions ",
+            "WorkStageName": "The function of this screen is to **search for customer information based on specified conditions**. <br>  \n① **Enter the required search criteria** to filter customer data. <br>  \n② **Execute the inquiry** to retrieve a list of customers matching the conditions. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1521,7 +1521,7 @@
         {
             "ScenarioCode": "NW_CI_0004",
             "WorkflowName": "Register Credit Ratings",
-            "WorkStageName": "본점 신용등급 인터페이스 ",
+            "WorkStageName": "**Head Office Credit Rating Interface**",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1543,7 +1543,7 @@
         {
             "ScenarioCode": "NW_CI_0004",
             "WorkflowName": "Register Credit Ratings",
-            "WorkStageName": "지점에서 등록한 외부 신용등급 변경? ",
+            "WorkStageName": "Change the **external credit rating registered by the branch**",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Fork",
@@ -1587,7 +1587,7 @@
         {
             "ScenarioCode": "NW_CI_0004",
             "WorkflowName": "Register Credit Ratings",
-            "WorkStageName": "(KR) 고객의 신용등급을 등록함 (EN) Register credit ratings ",
+            "WorkStageName": "The function of this screen is to **register a customer's credit rating**. <br>  \n① **Enter the customer's credit rating details**, including the rating level and relevant information. <br>  \n② **Save the registered credit rating** to update the system and associate it with the customer’s profile. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1642,7 +1642,7 @@
         {
             "ScenarioCode": "NW_CI_0004",
             "WorkflowName": "Register Credit Ratings",
-            "WorkStageName": "(KR) 고객의 신용등급을 삭제함 (EN) Delete credit ratings ",
+            "WorkStageName": "The function of this screen is to **delete a customer's credit rating** from the system. <br>  \n① **Select the customer** whose credit rating needs to be removed. <br>  \n② **Confirm the deletion** to remove the credit rating record. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1675,7 +1675,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "권역계열코드? ",
+            "WorkStageName": "**Regional Affiliate Code**? ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1697,7 +1697,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "(KR) 등록/수정/삭제하고자하는 고객의 권역 그룹코드가 존재하는지 조회 (EN) Inquire whether the customer group code to be registered/modified/deleted exists. ",
+            "WorkStageName": "The function of this screen is to **verify the existence of a customer group code** before performing any modifications. <br>  \n① **Check whether the customer group code exists** in the system. <br>  \n② If the code is found, proceed with **registration, modification, or deletion** as needed. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1719,7 +1719,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "대상 고객 그룹코드가 존재하는가? ",
+            "WorkStageName": "Does the **customer group code** exist?",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1741,7 +1741,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "(KR) 기업체의 계열사에 대한 정보를 등록한다 (EN) Register information related to the Corporate's affiliates. ",
+            "WorkStageName": "The function of this screen is to **register and manage information about a corporate entity's affiliates**. <br>  \n① **Enter affiliate details**, including name, business registration number, and relationship with the parent company. <br>  \n② **Save the information** to store it in the system for reference and reporting. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1763,7 +1763,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "(KR) 고객 계열사코드를 사용하는 화면에서 등록/수정/삭제한 사항이 잘 반영되었는지 확인한다. (EN) On the screen using the customer group code, check whether the registered/modified/deleted informations are properly applied. ",
+            "WorkStageName": "The function of this screen is to **verify the application of changes made to customer group codes**. <br>  \n① **Check whether registered, modified, or deleted entries** related to the customer group code are correctly applied. <br>  \n② Ensure that all updates are accurately reflected in the system. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1840,7 +1840,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "본점 계열 코드 인터페이스 ",
+            "WorkStageName": "**Head Office Affiliate Code Interface**",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1851,7 +1851,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "고객 그룹코드/관련정보를  수정하는가? ",
+            "WorkStageName": " **modify the customer group code/related information**?",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1873,7 +1873,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "(KR) 기업체의 계열사에 대한 정보를 수정한다 (EN) Modify information related to the Corporate's affiliates. ",
+            "WorkStageName": "The function of this screen is to **modify information related to a corporate customer's affiliates**. <br>  \n① **Access and review the existing affiliate information** associated with the corporate customer. <br>  \n② **Edit, update, or correct details** such as company name, ownership structure, or business relationships. <br>  \n③ **Save the changes** to ensure the updated information is reflected in the system. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1939,7 +1939,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "고객 그룹코드를 삭제하는가? ",
+            "WorkStageName": "**delete the customer group code**?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1961,7 +1961,7 @@
         {
             "ScenarioCode": "NW_CI_0005",
             "WorkflowName": "Customer Group Code Management",
-            "WorkStageName": "(KR) 기업체의 계열사에 대한 정보를 삭제한다 (EN) Delete information related to the Corporate's affiliates. ",
+            "WorkStageName": "The function of this screen is to **delete information related to a corporate entity's affiliates**. <br>  \n① **Locate and select the affiliate information** that needs to be removed. <br>  \n② **Confirm the deletion request** to ensure accurate record management. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
