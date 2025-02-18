@@ -25,7 +25,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] MT740, MT799 전문 수신 [EN] Receiving the R/A SWIFT message (MT799, MT740) ",
+            "WorkStageName": "The function of this screen is to **receive and process R/A SWIFT messages** related to **MT799 and MT740** transactions. <br>  \n① It captures incoming **MT799 and MT740 SWIFT messages** from correspondent banks. <br>  \n② The system **validates the message format and content** to ensure compliance with internal and regulatory requirements. <br>  \n",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -47,7 +47,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] MT740, MT799 전문 수신 [EN] Receiving the R/A SWIFT message (MT799, MT740) ",
+            "WorkStageName": "The function of this screen is to **receive and process R/A SWIFT messages** related to **MT799 and MT740** transactions. <br>  \n① It captures incoming **MT799 and MT740 SWIFT messages** from correspondent banks. <br>  \n② The system **validates the message format and content** to ensure compliance with internal and regulatory requirements. <br>  \n",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -69,7 +69,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "  은행 한도 승인 [Desc]  [KR] L/C Issuing Bank의 한도를 승인 [EN] Approve credit line of Issuing Bank ",
+            "WorkStageName": "The function of this screen is to **approve the credit line** for the **L/C Issuing Bank**. <br>  \n① Users can review the Issuing Bank’s credit limit details and assess its eligibility for approval. <br>  \n② Based on the evaluation, users can either **approve, modify, or reject** the requested credit line. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -91,7 +91,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] R/A 등록 [EN] Register Reimbursment ",
+            "WorkStageName": "The function of this screen is to **register and manage reimbursement requests** for transactions that require repayment. <br>  \n① **Enter** the necessary reimbursement details, including the amount, reason, and associated transaction information. <br>  \n② **Submit** the request for approval, triggering a review process by authorized personnel. <br>  \n③ **Track** the status of submitted requests, from initial registration to final approval or rejection. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -355,7 +355,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] MT742 전문 수신 [EN] Receiving the Claim SWIFT message (MT742) [Desc.]   MT999 전문을 수신했을 경우에는 지급이 되지 않기 때문에 지급거절 전문을 보내야함 ",
+            "WorkStageName": "The function of this screen is to **process incoming SWIFT messages (MT742) related to payment claims**. <br>  \n① When an **MT742 message** is received, the system verifies the payment claim details. <br>  \n② If an **MT999 message** is received instead, payment **cannot be processed**, and the system must generate and send a **payment rejection message**. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -377,7 +377,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Claim 등록 전 중복 확인 [EN] Type L/C no. and click search and click the RA NUMBER ",
+            "WorkStageName": "The function of this screen is to **check for duplicate claims before registration** and retrieve the relevant RA Number. <br>  \n① **Enter** the **L/C number** in the designated field. <br>  \n② **Click** the **Search** button to retrieve matching records. <br>  \n③ **Select** the appropriate **RA Number** from the search results. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -399,7 +399,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Claim 등록 [EN] Register Claim Document ",
+            "WorkStageName": "The function of this screen is to **register and manage claim documents** related to financial transactions or customer requests. <br>  \n① Users can **input claim details**, including claimant information, claim type, and supporting documents. <br>  \n② The system **validates the entered data** and ensures all required fields are completed. <br>  \n③ Once submitted, the claim is **stored in the system** for further review and processing. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -421,7 +421,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "NewYork 지점?",
+            "WorkStageName": "New York Branch?",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Fork",
@@ -817,7 +817,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Hold 유형 선택 후 상세정보 입력 [EN] Select the hold type then register the details for holding ",
+            "WorkStageName": "The function of this screen is to **select a hold type** and **enter detailed information** for the hold. <br>  \n① **Choose** the appropriate **hold type** from the available options. <br>  \n② **Input** the necessary **details** related to the selected hold. <br>  \n③ **Confirm** and **save** the entered information to complete the process.",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -839,7 +839,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] MT799 전문 생성(필요시) [EN] Prepare MT799(if any) ",
+            "WorkStageName": "The function of this screen is to **generate an MT799 message** when required. <br>  \n① It allows users to create and prepare the **MT799 SWIFT message**, which serves as a **pre-advice or notification** in trade finance transactions. <br>  \n② If necessary, the system validates the message details before submission. <br>  ",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -938,7 +938,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] 지급 건들에 대해 Treasury Dept. 전달 [EN] Inform Treasury Dept. to prepare funding",
+            "WorkStageName": "The function of this screen is to **notify the Treasury Department** to **prepare funding** for upcoming disbursements. <br>  \n① The system identifies payment requests that require funding. <br>  \n② It then generates a notification to inform the Treasury Department. <br>  ",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -960,7 +960,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Payment List 확인 후 항목 입력 [EN] Search payment list then Register data for claim payment ",
+            "WorkStageName": "The function of this screen is to **search for payment records** and **register data for claim payments**. <br>  \n① **Retrieve** the payment list based on specified search criteria. <br>  \n② **Review** the listed payments to identify the relevant transactions. <br>  \n③ **Enter and register** the required details for claim payments. <br>  \n④ **Confirm and submit** the registered data for processing. <br>  ",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1004,7 +1004,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Bill 정보 추가 항목 입력 [EN] Register Bill information  for claim payment additional ",
+            "WorkStageName": "The function of this screen is to **register additional bill information** for **claim payments**. <br>  \n① Users can enter and update bill details related to a claim. <br>  \n② The system verifies the input data to ensure accuracy and completeness. <br>  ",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1213,7 +1213,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "단건처리인가?",
+            "WorkStageName": "\"Is it a **single transaction processing**?\"",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1235,7 +1235,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] Voucher, MT202 출력 [EN] Print Voucher and MT202 ",
+            "WorkStageName": "The function of this screen is to **generate and print** a **voucher** and an **MT202 payment message**. <br>  \n① The system retrieves the relevant transaction details. <br>  \n② A **voucher** is generated, containing key payment information for record-keeping or reference. <br>  \n③ An **MT202** message, which is used for financial institution-to-financial institution fund transfers, is formatted according to SWIFT standards. <br>  \n④ The user can review and confirm the details before printing. <br>  \n⑤ Upon confirmation, both the **voucher** and **MT202** are printed and stored for compliance and audit purposes.",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1257,7 +1257,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "NewYork 지점? ",
+            "WorkStageName": "New York Branch? ",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Fork",
@@ -1301,7 +1301,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] 결재 상신 [EN] Request final confirmation ",
+            "WorkStageName": "The function of this screen is to **submit an approval request for final confirmation**. <br>  \n① Users can enter relevant details and attach necessary documents before submission. <br>  \n② Approvers receive a notification and can review, approve, or reject the request. <br>  ",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1323,7 +1323,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] MT202/MT799 전문 발송 [EN] Prepare MT202/MT799  ",
+            "WorkStageName": "The function of this screen is to **prepare and transmit MT202 and MT799 messages** for financial transactions. <br>  \n① **MT202** messages facilitate fund transfers between financial institutions, ensuring secure and efficient settlement. <br>  \n② **MT799** messages serve as pre-advice or free-format messages used for documentary and trade finance transactions. <br>  \nUsers can **input, review, and validate message details** before transmission, ensuring compliance with banking standards. <br>  ",
             "DisplayLayoutRow": "18",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -1389,7 +1389,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] PO 발송 건 선택 후 Enter 버튼 클릭 [EN] Select the payment list, and click \"Enter\" button ",
+            "WorkStageName": "The function of this screen is to **select a purchase order (PO) from the list and proceed with the next step by pressing the \"Enter\" button**. <br>  \n① **Select** the desired PO from the available list. <br>  \n② **Press the \"Enter\" button** to confirm the selection and proceed to the next process.",
             "DisplayLayoutRow": "20",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1411,7 +1411,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] 지불 건 선택 후 Process 버튼 클릭 [EN] Select the payment list, and click \"Process\" button ",
+            "WorkStageName": "The function of this screen is to **process selected payment transactions**. <br>  \n① **Select** the desired payment transactions from the list. <br>  \n② **Click** the **\"Process\"** button to initiate the transaction processing. <br>  ",
             "DisplayLayoutRow": "20",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1609,7 +1609,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "NY branch?",
+            "WorkStageName": "New York Branch?",
             "DisplayLayoutRow": "22",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Fork",
@@ -1697,7 +1697,7 @@
         {
             "ScenarioCode": "NW_RB_0001",
             "WorkflowName": "Register Reimbursement and Claim business",
-            "WorkStageName": "[KR] GenerateFile 클릭 후, Modify tab 이동하여 정보 입력 [EN] Click \"GenerateFile\" and move to \"Modify\" tab then  register data ",
+            "WorkStageName": "The function of this screen is to **generate a file and modify its details**. <br>  \n① Click **\"GenerateFile\"** to create a new file. <br>  \n② Navigate to the **\"Modify\"** tab. <br>  \n③ Enter the required information to update or customize the file. <br>  ",
             "DisplayLayoutRow": "24",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -1763,7 +1763,7 @@
         {
             "ScenarioCode": "NW_RB_0002",
             "WorkflowName": "R/A Amendment",
-            "WorkStageName": "[KR] MT747, MT799 전문 수신 [EN] Receiving the R/A amend SWIFT message (MT747, 799) ",
+            "WorkStageName": "The function of this screen is to **receive and process amendment SWIFT messages** related to reimbursement authorization (**MT747, MT799**). <br>  \n① **Retrieve incoming SWIFT messages** for amendment requests. <br>  \n② **Validate and log** the details of the received messages. <br>  \n③ **Display key information**, including sender, reference numbers, and amendment details. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1785,7 +1785,7 @@
         {
             "ScenarioCode": "NW_RB_0002",
             "WorkflowName": "R/A Amendment",
-            "WorkStageName": "[KR] MT747, MT799 전문 수신 [EN] Receiving the R/A amend SWIFT message (MT747, 799) ",
+            "WorkStageName": "The function of this screen is to **receive and process amendment SWIFT messages** related to reimbursement authorization (**MT747, MT799**). <br>  \n① **Retrieve incoming SWIFT messages** for amendment requests. <br>  \n② **Validate and log** the details of the received messages. <br>  \n③ **Display key information**, including sender, reference numbers, and amendment details. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -1807,7 +1807,7 @@
         {
             "ScenarioCode": "NW_RB_0002",
             "WorkflowName": "R/A Amendment",
-            "WorkStageName": "[KR] R/A Amendment 등록 [EN] Register R/A data of amendment ",
+            "WorkStageName": "The function of this screen is to **register and manage amendments to R/A data**. <br>  \n① Users can input and update **revised R/A details**, ensuring accurate record-keeping. <br>  \n② The system validates the entered data against predefined rules to maintain compliance. <br>  \n③ Once submitted, the amended R/A data is stored and can be retrieved for future reference. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -1829,7 +1829,7 @@
         {
             "ScenarioCode": "NW_RB_0002",
             "WorkflowName": "R/A Amendment",
-            "WorkStageName": "[KR] L/C No. 로 검색 후, Info 클릭하여 수정부분이 올바르게 반영되어 있는지 확인하고, 반영되어 있으면 빨간펜으로 747 전문에 Check no.를 오른쪽 상단에 적음 [EN] Search by L/C number, check the amendment of R/A after click Info button. If R/A amend well, write the check number in the top right corner of the 747 paper with a red pen. ",
+            "WorkStageName": "The function of this screen is to **search for a Letter of Credit (L/C) by its number and verify the amendment of the Reimbursement Authorization (R/A).** <br>  \n① **Search** for the L/C using its number. <br>  \n② **Click** the **\"Info\"** button to review the amendment details. <br>  \n③ **Verify** whether the amendment has been correctly applied. <br>  \n④ If the amendment is correct, **write the check number** in the **top right corner** of the SWIFT MT747 document using a **red pen**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -1972,7 +1972,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 정정이 필요한 내용 입력 후 Enter [EN] Register amend data, and click \"Enter\"",
+            "WorkStageName": "The function of this screen is to **register and amend data** efficiently. <br>  \n① Users can input the necessary corrections or new data. <br>  \n② Once the amendments are complete, they must **press \"Enter\"** to submit the changes. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -1994,7 +1994,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] Amend 요청 온 내용 별도 메모 (Amend 된 Bill은 Acceptance Advice 자동으로 나가지 않음) [EN] Note the amend request (If it is Amend bill, Acceptance Advice not automatically issued) ",
+            "WorkStageName": "The function of this screen is to **record and manage amendment requests** for bills. <br>  \n① When an amendment request is received, the system **logs the details** for reference. <br>  \n② If the bill has been amended, the system **does not automatically issue an Acceptance Advice**. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -2016,7 +2016,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] MT799 전문 생성 [EN] Prepare MT799 ",
+            "WorkStageName": "The function of this screen is to **generate MT799 messages**, which serve as pre-advice or notifications in financial transactions.<br>  \n① Users can input transaction details, including sender and receiver information, message content, and reference numbers.<br>  \n② The system validates the entered data to ensure compliance with SWIFT standards.<br>  \n③ Once validated, the MT799 message is formatted accordingly and prepared for transmission.<br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -2214,7 +2214,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 만기일 전 상환 메시지 수신 [EN] Receive a request of R/A prepayment via swift message",
+            "WorkStageName": "The function of this screen is to **receive and process requests for prepayment of R/A (Repayment/Amortization) before the maturity date** via **SWIFT messages**. <br>  \n① The system detects incoming SWIFT messages related to prepayment requests. <br>  \n② It extracts relevant details, such as loan reference number, requested prepayment amount, and settlement date. <br>  \n③ The extracted data is validated against existing loan records. <br>  \n④ If valid, the system updates the repayment schedule and generates a confirmation message. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -2236,7 +2236,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 조기상환 항목 입력 [EN] Register prepayment data ",
+            "WorkStageName": "The function of this screen is to **record and manage prepayment transactions** for corporate customers. <br>  \n① **Enter prepayment details**, including payment amount, date, and relevant contract information. <br>  \n② **Verify the entered data** to ensure accuracy and compliance with internal policies. <br>  \n③ **Submit the prepayment request** for processing, triggering necessary system validations. <br>  \n④ **Review and confirm transaction status**, with options to modify or cancel before final approval. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -2280,7 +2280,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] Interest 재계산하여 본점에 환출 [EN] Recalculate interest amount ann refund to HQ for the remaining tenor",
+            "WorkStageName": "The function of this screen is to **recalculate the interest amount** and **refund the adjusted interest** to the **Headquarters (HQ)** for the **remaining tenor** of the loan. <br>  \n① The system recalculates the interest based on the updated loan conditions. <br>  \n② Any excess or deficit interest is determined. <br>  \n③ The system processes a refund or adjustment transaction to HQ accordingly. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -2302,7 +2302,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] MT799 전문 발송([184400] 화면에서 자동 생성) [EN] Prepare MT799(Generated automatically in [184400]) ",
+            "WorkStageName": "The function of this screen is to **prepare and send MT799 messages**, which are **automatically generated** within screen **[184400]**. <br>  \n① The system **automatically generates** an MT799 message based on predefined conditions. <br>  \n② Users can **review the generated message** and make necessary modifications before transmission. <br>  ",
             "DisplayLayoutRow": "4",
             "DisplayLayoutColumn": "12",
             "LoadingPageType": "Image",
@@ -2423,7 +2423,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 이자 재계산 후 본점으로 수취 [EN] Recalculate Interest amount and receive from  HQ ",
+            "WorkStageName": "The function of this screen is to **recalculate the interest amount** and **request reimbursement from HQ**. <br>  \n① The system **reassesses the accrued interest** based on updated parameters or adjustments. <br>  \n② After recalculating, the system **generates a request** for the interest difference to be settled by the headquarters. <br>  \n③ The recalculated amount is then **processed and transferred** from HQ to the branch, ensuring accurate financial reconciliation.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -2500,7 +2500,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 만기 연장건과 관련하여 사전에 담당자로부터 연락을 받음 [EN] Before require extend bill, contacted in advance by the person in charge 금액 불문하고 연장 2번까지 OK, 3번째부터는 상담 필요 (Extend bill is ok up to 2times. Consultation is required from the third. (Any amount is okay)) 건 당 90일을 넘지 않아야하며, 최초 인수일로부터 1년을 넘지 않아야 함(Do not over 90days for each, and do not over 1 year from the first acceptance date) ",
+            "WorkStageName": "The function of this screen is to **manage the extension of bill maturities** while ensuring compliance with predefined conditions. <br>  \n① **Automatic notification** is sent when an extension request is received. <br>  \n② Extensions are **allowed up to two times**, regardless of the amount. From the **third extension**, consultation with an authorized representative is required. <br>  \n③ Each extension **must not exceed 90 days**, and the total extended period **must not exceed one year** from the **initial acceptance date**. <br>  ",
             "DisplayLayoutRow": "8",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -2764,7 +2764,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 연장 건 선택 후, 만기 연장 요청 전문 내용과 동일하게 Rollover information 입력 [EN] Select bill on the list, register Rollover Information same with SWIFT request ",
+            "WorkStageName": "The function of this screen is to **process bill rollovers** by registering rollover details based on a SWIFT request. <br>  \n① **Select a bill** from the list. <br>  \n② **Enter the rollover information**, ensuring it matches the details in the SWIFT rollover request. <br>  \n③ **Confirm and save** the rollover details for processing.",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -2786,7 +2786,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] MT754 전문 생성 [EN] Prepare MT754 ",
+            "WorkStageName": "The function of this screen is to **generate** MT754 messages, which are used in documentary credit transactions to notify banks of discrepancies in documents presented under a letter of credit.<br>  \n① The system **compiles relevant transaction details**, including discrepancies and documentary credit references.<br>  \n② It **formats the information** according to SWIFT MT754 standards.<br>  ",
             "DisplayLayoutRow": "12",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -2929,7 +2929,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 리스트 조회 후 출력 [EN] Check Bill Balance List & Print",
+            "WorkStageName": "The function of this screen is to **retrieve and display a list of bill balances** and provide an option to **print the selected information**. <br>  \n① The system **fetches bill balance records** based on specified criteria. <br>  \n② Users can **review the listed balances** and verify relevant details. <br>  ",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -2973,7 +2973,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] 만기일에 단건 결제 처리 [EN] Settlement of each individual transaction (Maturity date) ",
+            "WorkStageName": "The function of this screen is to **process individual payment settlements** on the **maturity date**. <br>  \n① It allows users to review and execute **single transaction settlements** that are due for payment. <br>  \n② The system verifies the transaction details and ensures that the payment is processed accurately. <br>  ",
             "DisplayLayoutRow": "14",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -3116,7 +3116,7 @@
         {
             "ScenarioCode": "NW_RB_0003",
             "WorkflowName": "R/A Bill Amend/Extend Bill/Prepayment/Settlement business",
-            "WorkStageName": "[KR] [185500]에서 출력한 내용과 대조하여 확인 후 Settle 처리 [EN]  Check with the print of 185500(Bill Balance List) then Process Settle ",
+            "WorkStageName": "The function of this screen is to **verify and settle bill balances**. <br>  \n① **Check** the output from **185500 (Bill Balance List)** to ensure accuracy. <br>  \n② **Compare** the displayed information with the printed bill balance details. <br>  \n③ **Confirm** any discrepancies and take necessary actions. <br>  \n④ **Process the settlement** once the verification is complete.",
             "DisplayLayoutRow": "16",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -3138,7 +3138,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] Current Balance 입력 후 Enter [EN] After register Current Balance, click \"Enter\" ",
+            "WorkStageName": "The function of this screen is to **register the Current Balance and proceed to the next step**. <br>  \n① **Enter** the desired **Current Balance** in the input field. <br>  \n② **Press \"Enter\"** to confirm the entry and proceed.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -3160,7 +3160,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] 내용 확인 후 Enter [EN] Check the data, and Enter ",
+            "WorkStageName": "The function of this screen is to **verify and confirm data accuracy** before proceeding to the next step. <br>  \n① The user **reviews the displayed data** to ensure correctness. <br>  \n② After verification, the user **presses \"Enter\"** to confirm and proceed. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -3204,7 +3204,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] 본점으로부터 입금 전문 확인 [EN] Receiving the payment from Head Office ",
+            "WorkStageName": "The function of this screen is to **verify and process incoming payment transactions** from the **Head Office**. <br>  \n① It **receives and displays** payment instructions sent by the Head Office. <br>  \n② The system **validates the transaction details**, ensuring accuracy and compliance with internal policies. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -3226,7 +3226,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] Nostro/Vostro 거래 내역 출력 [EN] Print Report (Nostro/Vostro transaction history) ",
+            "WorkStageName": "The function of this screen is to **generate and print reports** detailing **Nostro/Vostro transaction history**. <br>  \n① **Retrieve** transaction records for Nostro and Vostro accounts based on specified criteria (e.g., date range, account number, currency). <br>  \n② **Display** the filtered transaction details, including debits, credits, balances, and relevant references. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -3248,7 +3248,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] Accounting 처리 후 Voucher 출력 [EN] Prepare GL Voucher to settle the received amount ",
+            "WorkStageName": "The function of this screen is to **prepare and generate a GL voucher** for the settlement of a received amount. <br>  \n① The system processes **accounting entries** for the received funds. <br>  \n② After accounting is completed, it **generates a GL voucher** with the relevant financial details. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "10",
             "LoadingPageType": "Image",
@@ -3270,7 +3270,7 @@
         {
             "ScenarioCode": "NW_RB_0004",
             "WorkflowName": "Funding to Head Office",
-            "WorkStageName": "[KR] Current Balance \"0\" 확인 [EN] Check Current Balance \"0\" ",
+            "WorkStageName": "The function of this screen is to **verify whether the current balance is zero** in a specified account. <br>  \n① The system retrieves the latest balance information from the database. <br>  \n② If the balance is exactly **\"0\"**, the system confirms this status. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "12",
             "LoadingPageType": "Image",
@@ -3380,7 +3380,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] Risk participation의 한도를 승인받는 절차 [EN] Approved credit of risk participation ",
+            "WorkStageName": "The function of this screen is to **approve credit limits for risk participation** in financial transactions. <br>  \n① Users can submit requests for **risk participation limit approval**, specifying the transaction details and required credit amount. <br>  \n② The system validates the request based on **predefined credit policies and risk assessment criteria**. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -3402,7 +3402,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] RP 인수가 결정되면 RP 등록 [EN] When RP acceptance is decided, register RP ",
+            "WorkStageName": "The function of this screen is to **register an RP once its acceptance has been confirmed**. <br>  \n① The system allows users to input and verify RP details after a decision has been made. <br>  \n② Users can submit the RP for official registration, ensuring it is recorded in the system. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -3424,7 +3424,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] 실행할 RP 조회 및 내용 확인 후 Enter [EN] Search and check data RP for processing then click Enter button ",
+            "WorkStageName": "The function of this screen is to **search for and review RP data before processing**. <br>  \n① **Retrieve** the relevant RP data by entering the required search criteria. <br>  \n② **Review** the details of the retrieved RP data to ensure accuracy. <br>  \n③ **Proceed with processing** by pressing the **Enter** button once verification is complete.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "4",
             "LoadingPageType": "Image",
@@ -3446,7 +3446,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] 승인 및 전문발송이 끝나면 문서(MT799, MT202, Signed O&A)스캔 후 상대 은행에 이메일 발송 [EN] After approval and send the SWIFT message, send the scanned documents(MT799, MT202, Signed O&A) to their bank ",
+            "WorkStageName": "The function of this screen is to **process approvals and transmit SWIFT messages**, followed by sending scanned documents to the recipient bank. <br>  \n① **Upon approval**, the system sends the required **SWIFT message** (e.g., MT799, MT202). <br>  \n② **After transmission**, users must **scan the relevant documents** (MT799, MT202, and the signed O&A). <br>  \n③ **Finally, the scanned documents are sent** via email to the recipient bank. <br>  ",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "6",
             "LoadingPageType": "Image",
@@ -3468,7 +3468,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] 원본 2부가 도착하면 모두 사인하고 1부는 상대은행에 다시 발송 (날짜: Deal을 실시한 날짜) [EN] If 2 copies of original documents are arrive, sign the documents, and send 1 copy of origianl document to their bank (Date: start date of deal) ",
+            "WorkStageName": "The function of this screen is to **process and manage the signing and forwarding of original documents** related to a deal. <br>  \n① When **two copies** of the original document **arrive**, review and sign both. <br>  \n② **Retain one signed copy** for internal records. <br>  \n③ **Send the other signed copy** to the counterparty bank. <br>  \n④ The **deal date** should be recorded as the **date on which the transaction was executed**.",
             "DisplayLayoutRow": "0",
             "DisplayLayoutColumn": "8",
             "LoadingPageType": "Image",
@@ -3600,7 +3600,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] 조건변경 대상 RP 조회 후 조건변경 정보 입력 [EN] View the RP to amend then register amend data",
+            "WorkStageName": "The function of this screen is to **view and amend RP conditions**. <br>  \n① **Search for the target RP** that requires condition modification. <br>  \n② **Review the existing RP details** to verify the required changes. <br>  \n③ **Enter and register the amended conditions** in the system. <br>  ",
             "DisplayLayoutRow": "2",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
@@ -3688,7 +3688,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] RP 원금 결제를 위해 RP 조회 후 선택 [EN] Search and select the RP for settle RP principal ",
+            "WorkStageName": "The function of this screen is to **search for and select an RP to settle its principal amount**. <br>  \n① **Retrieve** RP records based on specified criteria. <br>  \n② **Select** the target RP from the search results. <br>  \n③ **Initiate** the principal settlement process for the selected RP.",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "0",
             "LoadingPageType": "Image",
@@ -3710,7 +3710,7 @@
         {
             "ScenarioCode": "NW_RB_0005",
             "WorkflowName": "Risk Participation business process",
-            "WorkStageName": "[KR] RP 이자 처리를 위해 RP 조회 후 선택 [EN] Search and select RP for settle RP interest ",
+            "WorkStageName": "The function of this screen is to **process RP interest settlements** by allowing users to **search for and select RP**. <br>  \n① **Search** for the relevant RP transactions. <br>  \n② **Select** the RP transaction(s) that require interest settlement. <br>  \n③ **Confirm** and proceed with the interest settlement process. <br>  ",
             "DisplayLayoutRow": "6",
             "DisplayLayoutColumn": "2",
             "LoadingPageType": "Image",
