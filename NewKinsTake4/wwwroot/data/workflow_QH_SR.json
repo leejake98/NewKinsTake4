@@ -1,0 +1,235 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR) 신규 Suspense 과목? (EN) is new Suspense Type ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Yes",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR) 가수금/가지급금 유형 등록 (EN) Register new Suspense Receivable/payable type [Desc.]        group code 항목 선택           가수금      : 400 | Suspense Payable           가지급금  :  500 | Suspense Receivable     신규 유형코드 및 설명,  계정 처리될 계정과목코드를 입력 후      Enter버튼 클릭 하여 저장",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "370100",
+            "KinsPageName": "Setup Type Code",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┴",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR) 가수금 또는 가지급금 신규 개설  (EN) Open new Suspense receivable or Suspense payable  [Desc.]        group code 항목 선택           가수금      :  400 | Suspense Payable           가지급금  :  500 | Suspense Receivable     가수/가지급 발생금액 및 기타 정보 입력 후 Enter버튼을 클릭하고     계정처리 내역을 입력 후 confirm버튼 클릭하여 Voucher 생성",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "371100",
+            "KinsPageName": "Open new Suspense Account",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "┳",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR) 미정리 가수금/가지급금 내역 조회 (EN) Inquiry unsettled suspense receivable and suspense payable [Desc.]        -  정리되지 않고 잔액이 존재하는 가수/가지급금 내역 조회     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 371200화면에서 직접 미정리 내역 조회 후 처리하고            37220은 조회 및 출력 용도로만 사용",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "372200",
+            "KinsPageName": "SPR Unsettled List",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "┳",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR)  전체/일부잔액 정리 또는 추가  입금 (EN) Settle full /partial  amount or increase account balance [Desc.]        Outstanding 목록에서 처리 대상 건 선택 후 처리  ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "371200",
+            "KinsPageName": "Debit/Credit Suspense Account",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "└",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "(KR) 가수/가지급금 거래내역 확인 (EN) Check suspense account transactions [Desc.]        -  조회조건 입력 후 조회버튼 클릭      -  해당 거래의 상태 및 승인상태 확인     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 371200화면에서 직접 미정리 내역 조회 후 처리 ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "372300",
+            "KinsPageName": "SPR Transaction History",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_SR_0010",
+            "WorkflowName": "Suspense account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "┘",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        }
+    ]
+}

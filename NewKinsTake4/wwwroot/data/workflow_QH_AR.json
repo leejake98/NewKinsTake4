@@ -1,0 +1,202 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR) 신규 APR과목? (EN) is new APR Type",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Yes",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR) 미수 미지급 과목 정보 등록  (EN) Register new basic information of Account Receivable/Account Payable type [Desc.]        group code 항목 선택           미수금    : 100 | Account receivable           미지급금 : 200 | Account payable     신규 유형코드 및 설명,  계정처리될 계정과목코드를 입력 후      Enter버튼 클릭 하여 저장  ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "363100",
+            "KinsPageName": "Setup Type Code",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┴",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR) 미수금 또는 미지급금 신규  (EN) Open new Account receivable or Account payable   [Desc.]        Group code 항목 선택           미수금      : 100 | Account receivable           미지급금 : 200 | Account payable     미수/미지급 발생금액 및 기타 정보 입력 후 Enter버튼을 클릭하고     상대 계정처리 내역을 입력 후 confirm버튼 클릭하여 Voucher 생성 ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "361100",
+            "KinsPageName": "Open new Account Receivable/Account Payable",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR) 미정리 미수금/미지급금 내역 조회 (EN) Inquiry unsettled account receivable and account payable [Desc.]        -  정리되지 않고 잔액이 존재하는 미수/미지급금 내역 조회     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 361200화면에서 직접 미정리 내역 조회 후 처리            36220은 조회 및 출력용도로만 사용 ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "362200",
+            "KinsPageName": "APR Unsettled List",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR) 미수/미지급  거래 내역 확인 (EN) Check Account Receivable /Account Payable transaction [Desc.]  a      -  조회 조건 입력 후 조회버튼 클릭      -  해당 거래의 상태 및 승인상태 확인     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 361200화면에서 직접 미정리 내역 조회 후 처리 ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "362300",
+            "KinsPageName": "APR Transaction History",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "(KR)  전체/일부잔액 정리 또는 추가  입금 (EN) Settle full /partial  amount or increase account balance [Desc.]        Outstanding 목록에서 처리 대상 건 선택 후 처리  ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "361200",
+            "KinsPageName": "Debit/Credit Account Receivable/Account Payable",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "11",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_AR_0010",
+            "WorkflowName": "Account Receivable/Account Payable transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "12",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        }
+    ]
+}

@@ -1,0 +1,235 @@
+{
+    "Workflow": [
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 신규 별도예금 과목? (EN) is new Temporary account Type ",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Fork",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "No",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "0",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┐",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Yes",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "1",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 별도예금 유형 등록 (EN) Register new temporary account type [Desc.]      - 신규 유형코드 및 설명,  계정 처리될 계정과목코드를 입력 후       Enter버튼 클릭 하여 저장     - 별도예금의 Group Code는 600으로 고정이며  자동 설정됨  ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "0",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "470100",
+            "KinsPageName": "Setup Type Code",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "1",
+            "LoadingPageType": "━",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "2",
+            "LoadingPageType": "┴",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "3",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 별도예금 신규 개설 및  입금 (EN) Open new Temporary Account  [Desc.]        Group code 항목 선택     - 신규 개설인 경우 입금 정보 입력 후 Enter버튼 클릭     - 기존 별단예금계좌 입금인 경우 Reference  No에  별도예금         계좌번호 입력 하여 선 조회 후 입금 정보를 입력하고 Enter클릭",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "4",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "471100",
+            "KinsPageName": "Open Temporary Account",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "┳",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 별도예금 Outstanding 내역 조회 (EN) Inquiry Temporary account outstanding list [Desc.]        -  정리되지 않고 잔액이 존재하는 별도예금 내역 조회     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 471200화면에서 직접 미정리 내역 조회 후 처리            42220은 조회 및 출력용도로만 사용 ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "472200",
+            "KinsPageName": "Unsettled List",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "┳",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 별도예금 입금 및 출금거래 (EN) Deposit to account for Withdraw from account( [Desc.]        Outstanding 목록에서 처리 대상 건 선택 후 처리 ",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "8",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "471200",
+            "KinsPageName": "Deposit/Withdraw Temporary Account",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "9",
+            "LoadingPageType": "Right",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "2",
+            "DisplayLayoutColumn": "10",
+            "LoadingPageType": "End",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "3",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "│",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "5",
+            "LoadingPageType": "└",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "(KR) 별도예금 거래내역  조회 (EN) Inquiry Temporary account Transactions [Desc.]        -  조회조건 입력 후 조회버튼 클릭      -  해당 거래의 상태 및 승인상태 확인     (*)  As-Is 에서 지원되던 정리 화면 연동은 지원되지 않음           New KINS는 471200화면에서 직접 미정리 내역 조회 후 처리 ",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "6",
+            "LoadingPageType": "Image",
+            "KinsPageNumber": "472300",
+            "KinsPageName": "Transaction History",
+            "WorkStageNameKo": ""
+        },
+        {
+            "ScenarioCode": "NW_TR_0010",
+            "WorkflowName": "Temporary account transaction",
+            "WorkStageName": "",
+            "DisplayLayoutRow": "4",
+            "DisplayLayoutColumn": "7",
+            "LoadingPageType": "┘",
+            "KinsPageNumber": "",
+            "KinsPageName": "",
+            "WorkStageNameKo": ""
+        }
+    ]
+}
